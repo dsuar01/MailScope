@@ -1,0 +1,25 @@
+From: Google <no-reply@accounts.google.com>
+To: recipient@example.org
+Subject: Security alert for your linked account
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8764958429819947392=="
+
+--===============8764958429819947392==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A new sign-in on Windows. If this was you, no action is needed. If not, secur=
+e your account: https://myaccount.google.com/notifications
+
+--===============8764958429819947392==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>A new sign-in on Windows. If this was not you, <a href=3D"https://myaccoun=
+t.google.com/notifications">review activity</a>.</p>
+
+--===============8764958429819947392==--

@@ -1,0 +1,25 @@
+From: Apple ID <noreply@appleid-locked.com>
+To: recipient@example.org
+Subject: Your Apple ID has been locked
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1570778497836106237=="
+
+--===============1570778497836106237==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your Apple ID was locked for security reasons. Unlock it here: https://applei=
+d-locked.com/unlock
+
+--===============1570778497836106237==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your Apple ID was locked for security reasons. <a href=3D"https://appleid-=
+locked.com/unlock">Unlock it here</a>.</p>
+
+--===============1570778497836106237==--

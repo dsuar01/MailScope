@@ -1,0 +1,25 @@
+From: Adobe Acrobat Sign <adobesign@adobesign.com>
+To: recipient@example.org
+Subject: Please sign: Vendor Agreement
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0540816414970765527=="
+
+--===============0540816414970765527==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Jonah Reid requested your signature on Vendor Agreement. Review and sign: htt=
+ps://secure.na1.adobesign.com/public/esignWidget?wid=3D1
+
+--===============0540816414970765527==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Jonah Reid requested your signature. <a href=3D"https://secure.na1.adobesi=
+gn.com/public/esignWidget?wid=3D1">Review and sign</a></p>
+
+--===============0540816414970765527==--

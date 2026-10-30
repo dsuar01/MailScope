@@ -1,0 +1,25 @@
+From: DocuSign System <dse@docusign.net>
+To: recipient@example.org
+Subject: Please review and sign: Lease Renewal
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4442174928218233605=="
+
+--===============4442174928218233605==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Taylor Nguyen sent you a document to review and sign. REVIEW DOCUMENT: https:=
+//na4.docusign.net/Signing/EmailStart.aspx?a=3D1
+
+--===============4442174928218233605==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Taylor Nguyen sent you a document to sign.</p><p><a href=3D"https://na4.do=
+cusign.net/Signing/EmailStart.aspx?a=3D1">REVIEW DOCUMENT</a></p>
+
+--===============4442174928218233605==--

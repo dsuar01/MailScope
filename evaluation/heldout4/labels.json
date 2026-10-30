@@ -1,0 +1,178 @@
+{
+  "p01_dropbox_lookalike": {
+    "label": "phishing",
+    "note": "Fake Dropbox share on a brand-token domain"
+  },
+  "p02_netflix_typosquat": {
+    "label": "phishing",
+    "note": "Billing-failure lure from a one-letter typo of Netflix"
+  },
+  "p03_apple_id_locked_ip": {
+    "label": "phishing",
+    "note": "Apple ID lock lure with a raw-IP link"
+  },
+  "p04_linkedin_lookalike": {
+    "label": "phishing",
+    "note": "Fake LinkedIn notification"
+  },
+  "p05_zip_password_in_body": {
+    "label": "phishing",
+    "note": "Encrypted archive with the password supplied in the message body"
+  },
+  "p06_ceo_reply_to_other_corp": {
+    "label": "phishing",
+    "note": "Executive name with reply-to pointing to an unrelated corporate-looking domain"
+  },
+  "p07_direct_deposit_change": {
+    "label": "phishing",
+    "note": "Fake employee asking HR to change direct deposit"
+  },
+  "p08_prize_iphone": {
+    "label": "scam_spam",
+    "note": "Fake loyalty-prize message"
+  },
+  "p09_pdf_link_invoice": {
+    "label": "phishing",
+    "note": "Invoice PDF whose only content is a link to a throwaway domain"
+  },
+  "p10_qr_only_microsoft": {
+    "label": "phishing",
+    "note": "Image-only message (QR phishing); body text is empty. Expected miss: content cannot be read"
+  },
+  "p11_sextortion_password": {
+    "label": "phishing",
+    "note": "Sextortion variant that quotes a password"
+  },
+  "p12_geeksquad_callback": {
+    "label": "phishing",
+    "note": "Fake subscription charge that tells you to phone"
+  },
+  "p13_chase_lookalike": {
+    "label": "phishing",
+    "note": "Bank alert on a lookalike domain"
+  },
+  "p14_zelle_accept": {
+    "label": "phishing",
+    "note": "Fake Zelle payment-received lure"
+  },
+  "p15_html_voicemail_redirect": {
+    "label": "phishing",
+    "note": "Voicemail lure with an HTML attachment that runs a redirect script"
+  },
+  "p16_loan_spam": {
+    "label": "scam_spam",
+    "note": "Loan spam"
+  },
+  "p17_domain_renewal_scam": {
+    "label": "scam_spam",
+    "note": "Fake domain-registry renewal notice"
+  },
+  "p18_wrong_number_lure": {
+    "label": "phishing",
+    "note": "Hard: wrong-number conversation starter with no link or request (expected miss)"
+  },
+  "p19_hijacked_vendor_thread": {
+    "label": "phishing",
+    "note": "Hard: reply inside an existing thread from a hijacked real mailbox, one link (expected miss)"
+  },
+  "p20_dating_spam": {
+    "label": "scam_spam",
+    "note": "Dating spam with abused-TLD link"
+  },
+  "p21_dhl_shortener_payment": {
+    "label": "phishing",
+    "note": "Parcel fee via shortener from a free mailbox"
+  },
+  "p22_voucher_credentials_form": {
+    "label": "phishing",
+    "note": "Gift voucher lure with an inline sign-in form"
+  },
+  "n01_microsoft_real_signin": {
+    "label": "legit",
+    "note": "Genuine Microsoft unusual sign-in alert"
+  },
+  "n02_paypal_receipt": {
+    "label": "legit",
+    "note": "Genuine PayPal receipt"
+  },
+  "n03_amazon_shipment": {
+    "label": "legit",
+    "note": "Genuine Amazon shipping notice"
+  },
+  "n04_linkedin_real": {
+    "label": "legit",
+    "note": "Genuine LinkedIn digest with tracking links on linkedin.com"
+  },
+  "n05_zoom_invite": {
+    "label": "legit",
+    "note": "Genuine Zoom meeting invitation"
+  },
+  "n06_dropbox_share_real": {
+    "label": "legit",
+    "note": "Genuine Dropbox share"
+  },
+  "n07_internal_invoice_approval": {
+    "label": "legit",
+    "note": "Internal colleague asking for invoice approval, PDF attached, mentions payment"
+  },
+  "n08_wellsfargo_statement": {
+    "label": "legit",
+    "note": "Bank statement-ready notice with attached PDF-free body"
+  },
+  "n09_google_groups_digest": {
+    "label": "legit",
+    "note": "Mailing-list digest with a different Reply-To list address"
+  },
+  "n10_sendgrid_brand_news": {
+    "label": "legit",
+    "note": "Brand newsletter sent through SendGrid"
+  },
+  "n11_adobe_sign_real": {
+    "label": "legit",
+    "note": "Genuine Adobe Acrobat Sign request"
+  },
+  "n12_ups_update": {
+    "label": "legit",
+    "note": "Genuine UPS delivery update"
+  },
+  "n13_clinic_portal": {
+    "label": "legit",
+    "note": "Clinic appointment reminder with identity-verification wording on its own domain"
+  },
+  "n14_portuguese_bank": {
+    "label": "legit",
+    "note": "Portuguese-language bank notice, own-domain link"
+  },
+  "n15_loan_servicer": {
+    "label": "legit",
+    "note": "Student-loan servicer payment reminder, own domain"
+  },
+  "n16_kraken_withdrawal": {
+    "label": "legit",
+    "note": "Crypto exchange withdrawal confirmation with a 'did not request' warning"
+  },
+  "n17_boss_gmail_availability": {
+    "label": "legit",
+    "note": "Manager on a personal gmail account asking about a call (hard negative)"
+  },
+  "n18_charity_receipt": {
+    "label": "legit",
+    "note": "Charity donation receipt"
+  },
+  "n19_retail_sale_caps": {
+    "label": "legit",
+    "note": "Big retailer sale email with capitals and exclamation marks"
+  },
+  "n20_friend_forward_news": {
+    "label": "legit",
+    "note": "Friend sharing a news article link"
+  },
+  "n21_supplier_first_remittance": {
+    "label": "legit",
+    "note": "Supplier with a new customer sending remittance info for a first payment (ambiguous: not a change request)"
+  },
+  "n22_idn_japanese_shop": {
+    "label": "legit",
+    "note": "Order confirmation from an internationalised .jp domain"
+  }
+}

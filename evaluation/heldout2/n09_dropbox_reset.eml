@@ -1,0 +1,25 @@
+From: Dropbox <no-reply@dropbox.com>
+To: recipient@example.org
+Subject: Reset your Dropbox password
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1495482801291147509=="
+
+--===============1495482801291147509==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Click the link to reset your password: https://www.dropbox.com/forgot_finish?=
+t=3Dabc. If you did not ask for this, ignore this email.
+
+--===============1495482801291147509==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><a href=3D"https://www.dropbox.com/forgot_finish?t=3Dabc">Reset your passw=
+ord</a>. If you did not ask for this, ignore this email.</p>
+
+--===============1495482801291147509==--

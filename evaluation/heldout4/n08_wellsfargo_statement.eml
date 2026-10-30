@@ -1,0 +1,25 @@
+From: Wells Fargo <alerts@notify.wellsfargo.com>
+To: recipient@example.org
+Subject: Your statement is ready
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4809128176600096321=="
+
+--===============4809128176600096321==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your statement is ready to view. Sign in at https://www.wellsfargo.com to see=
+ it.
+
+--===============4809128176600096321==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your statement is ready. <a href=3D"https://www.wellsfargo.com">Sign in to=
+ view</a></p>
+
+--===============4809128176600096321==--

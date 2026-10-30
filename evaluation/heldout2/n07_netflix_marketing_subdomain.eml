@@ -1,0 +1,24 @@
+From: Netflix <info@mailer.netflix.com>
+To: recipient@example.org
+Subject: New this month on Netflix
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1172265265931130041=="
+
+--===============1172265265931130041==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Here is what is new this month. Browse at https://www.netflix.com/browse.
+
+--===============1172265265931130041==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Here is what is new. <a href=3D"https://www.netflix.com/browse">Browse</a>=
+</p>
+
+--===============1172265265931130041==--

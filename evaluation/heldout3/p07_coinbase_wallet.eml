@@ -1,0 +1,25 @@
+From: Coinbase Support <support@coinbase-verify.help>
+To: recipient@example.org
+Subject: Unusual sign-in detected - verify your wallet
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3280564636653647116=="
+
+--===============3280564636653647116==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We detected a sign-in from a new device. Verify your wallet now to avoid susp=
+ension: https://www.coinbase.com/verify
+
+--===============3280564636653647116==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>We detected a sign-in from a new device.</p><p><a href=3D"https://coinbase=
+-verify.help/wallet">https://www.coinbase.com/verify</a></p>
+
+--===============3280564636653647116==--

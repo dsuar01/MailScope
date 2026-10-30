@@ -1,0 +1,25 @@
+From: Alex Kim (via Google Docs) <drive-shares-noreply@google.com>
+To: recipient@example.org
+Subject: Alex Kim shared a document with you
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5898055844357000915=="
+
+--===============5898055844357000915==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Alex Kim has shared a document with you. Open it: https://docs.google.com/doc=
+ument/d/1AbC/edit
+
+--===============5898055844357000915==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Alex Kim has shared a document with you.</p><p><a href=3D"https://docs.goo=
+gle.com/document/d/1AbC/edit">Open</a></p>
+
+--===============5898055844357000915==--

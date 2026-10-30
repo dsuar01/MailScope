@@ -1,0 +1,24 @@
+From: Voicemail <vm@voice-notify.cc>
+To: recipient@example.org
+Subject: New voicemail (0:32)
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3393025138159619925=="
+
+--===============3393025138159619925==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+You have a new voicemail. Open the attachment to listen.
+
+--===============3393025138159619925==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="VM_0032.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGJvZHk+PHNjcmlwdD53aW5kb3cubG9jYXRpb249J2h0dHBzOi8vdm9pY2Utbm90aWZ5
+LmNjL2xvZ2luJzs8L3NjcmlwdD48L2JvZHk+PC9odG1sPg==
+
+--===============3393025138159619925==--

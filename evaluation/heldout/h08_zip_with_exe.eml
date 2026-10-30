@@ -1,0 +1,25 @@
+From: Logistics <ops@global-cargo.example>
+To: recipient@example.org
+Subject: Shipping documents
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6827692301915921385=="
+
+--===============6827692301915921385==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Documents attached. Password: 7731
+
+--===============6827692301915921385==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="docs.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAAAO6tW13Hk5lQCAAAAAgAAAAMAAAAc2Nhbl8wNDEyLmpzdmFyIHg9MTtQSwECFAMU
+AAAAAADurVtdx5OZUAgAAAAIAAAADAAAAAAAAAAAAAAAgAEAAAAAc2Nhbl8wNDEyLmpzUEsFBgAA
+AAABAAEAOgAAADIAAAAAAA==
+
+--===============6827692301915921385==--

@@ -1,0 +1,25 @@
+From: Riverside Cafe <hello@riversidecafe.com>
+To: recipient@example.org
+Subject: October menu and events
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4847661699391238468=="
+
+--===============4847661699391238468==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Fall menu is here! Update your account preferences or unsubscribe at any time.
+
+--===============4847661699391238468==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Fall menu is here!</p><p><a href=3D"https://riversidecafe.us5.list-manage.=
+com/profile?u=3D1">Update your account preferences</a> | <a href=3D"https://r=
+iversidecafe.us5.list-manage.com/unsubscribe?u=3D1">Unsubscribe</a></p>
+
+--===============4847661699391238468==--

@@ -1,0 +1,38 @@
+Set: heldout2   messages: 25 (13 suspicious, 12 legitimate)
+  MailScope                              flag>=40  TP=13 FN= 0 FP= 0 TN=12  recall=1.00 precision=1.00
+  MailScope (low-signal threshold 15)    flag>=15  TP=13 FN= 0 FP= 3 TN= 9  recall=1.00 precision=0.81
+  Naive keyword baseline*                flag>=50  TP= 0 FN=13 FP= 1 TN=11  recall=0.00 precision=0.00
+  Analysis failures: 0
+  Flagged but typed differently from label (phishing vs spam/scam): 0
+
+Disagreements at threshold 40:
+  (none)
+
+All rows:
+  n01_small_biz_gmail_support        legit      score= 30 Low      minor            base=  0 ['org_name_on_freemail']
+  n02_bank_security_reassurance      legit      score=  0 Minimal  none             base= 25 []
+  n03_store_receipt_call_us          legit      score= 30 Low      minor            base=  0 ['callback_scam']
+  n04_finance_newsletter_risk_free   legit      score= 10 Minimal  none             base=  0 ['get_rich_scheme']
+  n05_hr_wfh_policy                  legit      score= 10 Minimal  none             base=  5 ['get_rich_scheme']
+  n06_teams_notification             legit      score= 10 Minimal  none             base=  5 ['document_lure']
+  n07_netflix_marketing_subdomain    legit      score=  0 Minimal  none             base=  5 []
+  n08_support_reply_confirm_address  legit      score=  0 Minimal  none             base= 15 []
+  n09_dropbox_reset                  legit      score=  0 Minimal  none             base= 20 []
+  n10_forwarded_to_security          legit      score= 19 Low      minor            base= 50 ['credential_request', 'pressure']
+  n11_ride_receipt_pdf               legit      score=  0 Minimal  none             base= 10 []
+  n12_munich_city                    legit      score=  0 Minimal  none             base=  5 []
+  p01_spoofed_ceo_replyto            phishing   score= 88 High     phishing_likely  base= 15 ['combo_payment_redirect', 'reply_to_freemail', 'payment_request', 'exec_request']
+  p02_sharepoint_subdomain_trick     phishing   score= 97 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p03_wells_ip_link                  phishing   score= 97 High     phishing_likely  base= 25 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_ip_host']
+  p04_pdf_javascript                 phishing   score= 51 Medium   suspicious       base= 10 ['att_pdf_active:INV-7731.pdf', 'combo_attachment_lure']
+  p05_docm_resume                    phishing   score= 51 Medium   suspicious       base= 10 ['att_macro:Resume_Emma_Hayes.docm', 'combo_attachment_lure']
+  p06_punycode_link                  phishing   score= 95 High     phishing_likely  base= 40 ['combo_deception_intent', 'link_lookalike_strong', 'credential_request', 'combo_credential_unrelated_link']
+  p07_prof_giftcards                 phishing   score= 83 High     phishing_likely  base= 15 ['combo_payment_redirect', 'payment_request', 'exec_request']
+  p08_binance_tld_subdomain          phishing   score= 98 High     phishing_likely  base= 35 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p09_sextortion_plain               phishing   score= 64 Medium   suspicious       base= 15 ['extortion_threat', 'pressure']
+  p10_quiet_bec                      phishing   score= 60 Medium   suspicious       base=  5 ['payment_request']
+  p11_netflix_payment_failed         phishing   score= 98 High     phishing_likely  base= 20 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  s01_widow_charity                  scam_spam  score= 66 Medium   spam_scam        base=  0 ['prize_or_fee_scam', 'combo_scam_freemail']
+  s02_pharma_shop                    scam_spam  score= 64 Medium   spam_scam        base= 20 ['promo_spam', 'pressure']
+
+* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.

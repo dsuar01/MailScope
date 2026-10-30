@@ -1,0 +1,25 @@
+From: Spotify <no-reply@spotify.com>
+To: recipient@example.org
+Subject: Confirm your email address
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1560914080580014372=="
+
+--===============1560914080580014372==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Confirm your email address to finish setting up your account: https://www.spo=
+tify.com/confirm/abc123
+
+--===============1560914080580014372==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Confirm your email address to finish setting up your account.</p><p><a hre=
+f=3D"https://www.spotify.com/confirm/abc123">Confirm email</a></p>
+
+--===============1560914080580014372==--

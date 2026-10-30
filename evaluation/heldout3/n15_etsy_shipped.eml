@@ -1,0 +1,25 @@
+From: Etsy <transaction@etsy.com>
+To: recipient@example.org
+Subject: Your order from PaperPine has shipped
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8952976350607556673=="
+
+--===============8952976350607556673==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Good news: your order shipped. Track it: https://www.etsy.com/your/purchases/=
+9912
+
+--===============8952976350607556673==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your order shipped. <a href=3D"https://www.etsy.com/your/purchases/9912">T=
+rack it</a></p>
+
+--===============8952976350607556673==--

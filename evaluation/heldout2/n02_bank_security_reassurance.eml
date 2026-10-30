@@ -1,0 +1,27 @@
+From: Wells Fargo <alerts@notify.wellsfargo.com>
+To: recipient@example.org
+Subject: Security tips for your account
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4337762132455058298=="
+
+--===============4337762132455058298==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Reminder: Wells Fargo will never ask you to share your password, PIN or one-t=
+ime code by email, text or phone. Learn more at https://www.wellsfargo.com/se=
+curity.
+
+--===============4337762132455058298==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Reminder: we will never ask you to share your password, PIN or one-time co=
+de by email. <a href=3D"https://www.wellsfargo.com/security">Learn more</a>.<=
+/p>
+
+--===============4337762132455058298==--

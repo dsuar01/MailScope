@@ -1,0 +1,25 @@
+From: DHL Express <tracking@dhl-parcels-notice.top>
+To: recipient@example.org
+Subject: Your parcel is on hold - fee required
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2674733186614439262=="
+
+--===============2674733186614439262==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your parcel could not be delivered. Pay the redelivery fee within 48 hours: h=
+ttps://bit.ly/3xYzAbC
+
+--===============2674733186614439262==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your parcel could not be delivered. <a href=3D"https://bit.ly/3xYzAbC">Pay=
+ the redelivery fee</a> within 48 hours.</p>
+
+--===============2674733186614439262==--

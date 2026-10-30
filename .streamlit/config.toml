@@ -1,0 +1,13 @@
+# Settings Streamlit reads when you start the app from this folder.
+[server]
+# Only this computer can open the page (Streamlit's default would also expose it to your network).
+address = "127.0.0.1"
+port = 8501
+# Do not open a browser or ask for an email address at start-up; open http://127.0.0.1:8501 yourself
+# (start_mailscope.bat / .sh do that for you).
+headless = true
+# Matches the 25 MB limit shown in the app.
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false

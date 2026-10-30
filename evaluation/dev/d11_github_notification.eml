@@ -1,0 +1,24 @@
+From: GitHub <notifications@github.com>
+To: recipient@example.org
+Subject: [repo] Pull request #12 merged
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2963742037360083060=="
+
+--===============2963742037360083060==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Merged #12 into main. View it on GitHub: https://github.com/org/repo/pull/12
+
+--===============2963742037360083060==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Merged #12. <a href=3D"https://github.com/org/repo/pull/12">View it on Git=
+Hub</a></p>
+
+--===============2963742037360083060==--

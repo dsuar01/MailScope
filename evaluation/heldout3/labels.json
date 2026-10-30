@@ -1,0 +1,154 @@
+{
+  "p01_zoom_recording_lookalike": {
+    "label": "phishing",
+    "note": "Fake 'missed meeting recording' with link text zoom.us but href on a lookalike"
+  },
+  "p02_it_helpdesk_quota": {
+    "label": "phishing",
+    "note": "Mailbox-full lure from a lookalike of the company's own helpdesk domain"
+  },
+  "p03_usps_missed_delivery": {
+    "label": "phishing",
+    "note": "Parcel lure from a free mailbox with a shortener link"
+  },
+  "p04_iso_invoice": {
+    "label": "phishing",
+    "note": "Invoice lure carrying a disk-image attachment"
+  },
+  "p05_cfo_wire_gmail": {
+    "label": "phishing",
+    "note": "Executive impersonation from a free mailbox, wire request"
+  },
+  "p06_vendor_bank_reply_to": {
+    "label": "phishing",
+    "note": "Bank-detail change with replies diverted to a free mailbox"
+  },
+  "p07_coinbase_wallet": {
+    "label": "phishing",
+    "note": "Wallet verification lure, display text and href disagree"
+  },
+  "p08_gdrive_subdomain_trick": {
+    "label": "phishing",
+    "note": "Google Drive share where the real registrable domain is share-docs.top"
+  },
+  "p09_html_attachment_login": {
+    "label": "phishing",
+    "note": "Password-expiry lure with an HTML attachment containing a login form"
+  },
+  "p10_irs_refund": {
+    "label": "phishing",
+    "note": "Tax refund lure from a lookalike government domain"
+  },
+  "p11_mystery_shopper_check": {
+    "label": "scam_spam",
+    "note": "Fake job: mystery shopper, send a cheque and keep part of it"
+  },
+  "p12_advance_fee_barrister": {
+    "label": "scam_spam",
+    "note": "Classic advance-fee scam"
+  },
+  "p13_crypto_giveaway": {
+    "label": "scam_spam",
+    "note": "Crypto giveaway scam"
+  },
+  "p14_tech_support_scam": {
+    "label": "phishing",
+    "note": "Fake virus alert telling the reader to call a number"
+  },
+  "p15_hijacked_account_link": {
+    "label": "phishing",
+    "note": "Hard: hijacked real mailbox, one-line message with a file link (expected miss)"
+  },
+  "p16_docusign_lookalike_button": {
+    "label": "phishing",
+    "note": "DocuSign lookalike with polished text and a button to the lookalike domain"
+  },
+  "p17_pharma_spam": {
+    "label": "scam_spam",
+    "note": "Pharmacy spam"
+  },
+  "p18_xlsm_invoice": {
+    "label": "phishing",
+    "note": "Plain invoice note with a macro-enabled workbook from an unknown vendor"
+  },
+  "n01_slack_digest": {
+    "label": "legit",
+    "note": "Slack notification digest"
+  },
+  "n02_airline_itinerary": {
+    "label": "legit",
+    "note": "Airline itinerary from the airline's own mail subdomain"
+  },
+  "n03_bank_alert_never_ask": {
+    "label": "legit",
+    "note": "Bank alert that says it will never ask for the full PIN"
+  },
+  "n04_google_security_alert": {
+    "label": "legit",
+    "note": "Genuine Google security alert (urgent wording, own-domain link)"
+  },
+  "n05_uber_receipt": {
+    "label": "legit",
+    "note": "Ride receipt"
+  },
+  "n06_university_password_expiry": {
+    "label": "legit",
+    "note": "University IT password-expiry notice, own-domain link (hard negative)"
+  },
+  "n07_colleague_pdf": {
+    "label": "legit",
+    "note": "Colleague sending meeting notes as a PDF"
+  },
+  "n08_mailchimp_small_brand": {
+    "label": "legit",
+    "note": "Small brand newsletter via Mailchimp tracking links"
+  },
+  "n09_substack": {
+    "label": "legit",
+    "note": "Substack post"
+  },
+  "n10_friend_gmail": {
+    "label": "legit",
+    "note": "Short personal note from a friend on gmail"
+  },
+  "n11_docusign_genuine": {
+    "label": "legit",
+    "note": "Genuine DocuSign envelope (sender and links on docusign.net)"
+  },
+  "n12_stripe_invoice": {
+    "label": "legit",
+    "note": "Stripe invoice email"
+  },
+  "n13_calendar_invite": {
+    "label": "legit",
+    "note": "Calendar invitation from Google Calendar"
+  },
+  "n14_law_firm_notice": {
+    "label": "legit",
+    "note": "Law-firm notice with a PDF, urgent legal wording"
+  },
+  "n15_etsy_shipped": {
+    "label": "legit",
+    "note": "Order shipped notice"
+  },
+  "n16_retail_promo": {
+    "label": "legit",
+    "note": "Big-brand marketing with 'limited-time offer' wording"
+  },
+  "n17_german_shipping": {
+    "label": "legit",
+    "note": "German-language shipping notice from a German retailer"
+  },
+  "n18_idn_shop_order": {
+    "label": "legit",
+    "note": "Order confirmation from a legitimate internationalised domain"
+  },
+  "n19_vendor_bank_notice_own_domain": {
+    "label": "legit",
+    "note": "Genuine supplier telling customers about new bank details, pointing to its own portal (ambiguous; verification by phone is still good practice)"
+  },
+  "n20_spotify_confirm_email": {
+    "label": "legit",
+    "note": "Confirm-email request from a service, own-domain link"
+  }
+}

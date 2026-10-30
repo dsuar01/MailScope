@@ -1,0 +1,25 @@
+From: Slack <feedback@slack.com>
+To: recipient@example.org
+Subject: You have 3 unread messages in Acme Workspace
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4842560693972420763=="
+
+--===============4842560693972420763==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Maya mentioned you in #design. Read it: https://acme.slack.com/archives/C0123=
+/p1
+
+--===============4842560693972420763==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Maya mentioned you in #design. <a href=3D"https://acme.slack.com/archives/=
+C0123/p1">Read it</a></p>
+
+--===============4842560693972420763==--

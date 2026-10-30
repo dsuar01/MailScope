@@ -1,0 +1,26 @@
+From: Microsoft account team
+ <account-security-noreply@accountprotection.microsoft.com>
+To: recipient@example.org
+Subject: Microsoft account security alert
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1591180976425223251=="
+
+--===============1591180976425223251==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Unusual sign-in activity on your Microsoft account. If this wasn't you, secur=
+e your account: https://account.live.com/activity
+
+--===============1591180976425223251==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Unusual sign-in activity. <a href=3D"https://account.live.com/activity">Re=
+view recent activity</a></p>
+
+--===============1591180976425223251==--

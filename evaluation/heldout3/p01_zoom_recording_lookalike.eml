@@ -1,0 +1,26 @@
+From: Zoom Video <no-reply@zoom-recordings-share.com>
+To: recipient@example.org
+Subject: Your meeting recording is ready to view
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============9071964995341538815=="
+
+--===============9071964995341538815==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your cloud recording from Monday is ready. Sign in to view it: https://zoom.u=
+s/rec/share/a1b2c3
+
+--===============9071964995341538815==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your cloud recording from Monday is ready.</p><p><a href=3D"https://zoom-r=
+ecordings-share.com/login?id=3Da1b2c3">https://zoom.us/rec/share/a1b2c3</a></=
+p>
+
+--===============9071964995341538815==--

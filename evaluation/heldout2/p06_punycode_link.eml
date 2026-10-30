@@ -1,0 +1,24 @@
+From: Account Security <security@acct-verify.com>
+To: recipient@example.org
+Subject: Verify your account to avoid suspension
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5953338098314135347=="
+
+--===============5953338098314135347==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please verify your account within 24 hours: https://xn--80ak6aa92e.com/id
+
+--===============5953338098314135347==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Please verify your account within 24 hours: <a href=3D"https://xn--80ak6aa=
+92e.com/id">Verify now</a></p>
+
+--===============5953338098314135347==--

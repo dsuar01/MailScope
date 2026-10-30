@@ -1,0 +1,25 @@
+From: Otto Versand <service@otto.de>
+To: recipient@example.org
+Subject: Ihre Bestellung wurde versendet
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7863460590428560790=="
+
+--===============7863460590428560790==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hallo, Ihre Bestellung wurde heute versendet. Sendungsverfolgung: https://www=
+.otto.de/mein-konto/sendung/123
+
+--===============7863460590428560790==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Hallo, Ihre Bestellung wurde versendet. <a href=3D"https://www.otto.de/mei=
+n-konto/sendung/123">Sendung verfolgen</a></p>
+
+--===============7863460590428560790==--

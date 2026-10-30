@@ -1,0 +1,12 @@
+From: Northwind Billing <billing@northwind-traders.com>
+To: recipient@example.org
+Subject: Updated bank details
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+Reply-To: northwind.billing.dept@gmail.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Please note our bank details have changed. Use the new account for all paymen=
+ts starting this week. Reply to this message with confirmation.

@@ -1,0 +1,25 @@
+From: Banco Meridional <avisos@bancomeridional.pt>
+To: recipient@example.org
+Subject: Extrato mensal =?utf-8?q?dispon=C3=ADvel?=
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0613314789238944537=="
+
+--===============0613314789238944537==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+O seu extrato mensal est=C3=A1 dispon=C3=ADvel. Consulte em https://www.banco=
+meridional.pt/extratos. Nunca lhe pediremos a sua palavra-passe por email.
+
+--===============0613314789238944537==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>O seu extrato mensal est=C3=A1 dispon=C3=ADvel. <a href=3D"https://www.ban=
+comeridional.pt/extratos">Consultar</a></p>
+
+--===============0613314789238944537==--

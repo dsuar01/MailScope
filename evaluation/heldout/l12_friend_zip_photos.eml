@@ -1,0 +1,26 @@
+From: Maria Lopez <maria.lopez77@gmail.com>
+To: recipient@example.org
+Subject: Photos from the trip
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4329712794130478587=="
+
+--===============4329712794130478587==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Here are the photos from the weekend!
+
+--===============4329712794130478587==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="photos.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAAAO6tW12DFtyMAQAAAAEAAAALAAAASU1HXzAwMS5qcGd4UEsDBBQAAAAAAO6tW10V
+Jtv7AQAAAAEAAAALAAAASU1HXzAwMi5qcGd5UEsBAhQDFAAAAAAA7q1bXYMW3IwBAAAAAQAAAAsA
+AAAAAAAAAAAAAIABAAAAAElNR18wMDEuanBnUEsBAhQDFAAAAAAA7q1bXRUm2/sBAAAAAQAAAAsA
+AAAAAAAAAAAAAIABKgAAAElNR18wMDIuanBnUEsFBgAAAAACAAIAcgAAAFQAAAAAAA==
+
+--===============4329712794130478587==--

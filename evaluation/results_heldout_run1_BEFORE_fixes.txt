@@ -1,0 +1,63 @@
+Set: evaluation/heldout   messages: 35 (19 suspicious, 16 legitimate)
+  MailScope                              flag>=40  TP=11 FN= 8 FP= 0 TN=16  recall=0.58 precision=1.00
+  MailScope (low-signal threshold 15)    flag>=15  TP=17 FN= 2 FP= 5 TN=11  recall=0.89 precision=0.77
+  Naive keyword baseline*                flag>=50  TP= 0 FN=19 FP= 0 TN=16  recall=0.00 precision=nan
+  Analysis failures: 0
+  Flagged but typed differently from label (phishing vs spam/scam): 0
+
+Disagreements at threshold 40:
+  FALSE NEGATIVE: h04_payroll_portal label=phishing score=30 verdict='Some suspicious signals (possible phishing)' signals=['payment_request']
+      note: Payroll lure, no brand, unrelated portal domain
+  FALSE NEGATIVE: h05_onenote_invoice label=phishing score=30 verdict='Some suspicious signals (possible phishing)' signals=['att_onenote:Invoice-88231.one']
+      note: OneNote attachment lure
+  FALSE NEGATIVE: h06_callback_scam label=phishing score=30 verdict='Some suspicious signals (possible phishing)' signals=['callback_scam']
+      note: Callback phishing: fake subscription charge
+  FALSE NEGATIVE: h12_plaintext_reply_password label=phishing score=37 verdict='Some suspicious signals (possible phishing)' signals=['credential_request', 'pressure']
+      note: No links, asks for password by reply (hard: little structure)
+  FALSE NEGATIVE: h13_compromised_vendor_clean label=phishing score=0 verdict='No strong signals found (this is not a safety clearance)' signals=[]
+      note: Hard: clean wording from real-looking vendor domain; only a file-share link (expected miss)
+  FALSE NEGATIVE: h16_crypto_spam label=scam_spam score=37 verdict='Some spam-like signals' signals=['promo_spam', 'pressure']
+      note: Investment spam with guaranteed returns
+  FALSE NEGATIVE: h17_fake_job label=scam_spam score=30 verdict='Some spam-like signals' signals=['promo_spam']
+      note: Work-from-home fake job
+  FALSE NEGATIVE: h18_seo_cold_spam label=scam_spam score=0 verdict='No strong signals found (this is not a safety clearance)' signals=[]
+      note: Hard: polite cold SEO spam (expected miss)
+
+All rows:
+  h01_docusign_lookalike             phishing   score= 97 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  h02_amazon_orders                  phishing   score= 97 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  h03_dhl_parcel_short               phishing   score= 92 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'link_shortener', 'pressure']
+  h04_payroll_portal                 phishing   score= 30 Low      minor            base=  5 ['payment_request']
+  h05_onenote_invoice                phishing   score= 30 Low      minor            base= 10 ['att_onenote:Invoice-88231.one']
+  h06_callback_scam                  phishing   score= 30 Low      minor            base=  0 ['callback_scam']
+  h07_mailbox_quota_gsites           phishing   score= 40 Medium   suspicious       base= 20 ['credential_request', 'combo_credential_unrelated_link']
+  h08_zip_with_exe                   phishing   score= 66 Medium   suspicious       base= 25 ['att_zip_exec:docs.zip', 'att_password_in_body']
+  h09_cfo_wire                       phishing   score= 85 High     phishing_likely  base= 30 ['combo_payment_redirect', 'payment_request', 'pressure', 'exec_request']
+  h10_coinbase_subdomain             phishing   score= 97 High     phishing_likely  base= 25 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  h11_apple_id_locked                phishing   score= 91 High     phishing_likely  base= 20 ['combo_deception_intent', 'brand_display_mismatch', 'pressure']
+  h12_plaintext_reply_password       phishing   score= 37 Low      minor            base= 35 ['credential_request', 'pressure']
+  h13_compromised_vendor_clean       phishing   score=  0 Minimal  none             base=  5 []
+  h14_qr_microsoft                   phishing   score= 94 High     phishing_likely  base= 15 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'credential_request']
+  h15_inheritance                    scam_spam  score= 66 Medium   spam_scam        base= 15 ['prize_or_fee_scam', 'combo_scam_freemail']
+  h16_crypto_spam                    scam_spam  score= 37 Low      minor            base= 10 ['promo_spam', 'pressure']
+  h17_fake_job                       scam_spam  score= 30 Low      minor            base=  0 ['promo_spam']
+  h18_seo_cold_spam                  scam_spam  score=  0 Minimal  none             base=  0 []
+  h19_casino                         scam_spam  score= 40 Medium   spam_scam        base= 30 ['promo_spam', 'pressure', 'shouting']
+  l01_chase_alert_real               legit      score= 10 Minimal  none             base= 40 ['credential_request']
+  l02_mailchimp_newsletter           legit      score= 30 Low      minor            base= 10 ['credential_request']
+  l03_amazon_shipping                legit      score=  0 Minimal  none             base=  5 []
+  l04_amazon_uk                      legit      score=  0 Minimal  none             base=  5 []
+  l05_recruiter_ats                  legit      score= 10 Minimal  none             base=  5 ['reply_to_diverges']
+  l06_apple_pie_bakery               legit      score=  0 Minimal  none             base=  5 []
+  l07_university_password_expiry     legit      score= 30 Low      minor            base= 20 ['credential_request']
+  l08_vendor_invoice_pdf             legit      score=  0 Minimal  none             base= 10 []
+  l09_small_biz_bitly                legit      score= 10 Minimal  none             base=  5 ['link_shortener']
+  l10_google_docs_share              legit      score= 10 Minimal  none             base=  5 ['document_lure']
+  l11_event_ticket_html              legit      score= 30 Low      minor            base= 10 ['att_html:tickets.html']
+  l12_friend_zip_photos              legit      score=  0 Minimal  none             base= 10 []
+  l13_saas_promo                     legit      score= 19 Low      minor            base=  5 ['pressure', 'promo_spam']
+  l14_japanese_shop                  legit      score=  0 Minimal  none             base=  5 []
+  l15_payroll_reminder               legit      score= 30 Low      minor            base=  5 ['payment_request']
+  l16_forwarding_list_digest         legit      score=  0 Minimal  none             base=  5 []
+
+* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.

@@ -1,0 +1,27 @@
+From: Bluebird Books <news@bluebirdbooks.com>
+To: recipient@example.org
+Subject: New arrivals this week
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+List-Unsubscribe: <mailto:unsub@bluebirdbooks.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2068504056850537433=="
+
+--===============2068504056850537433==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi there, here are this week's new arrivals. Visit bluebirdbooks.com to brows=
+e. Unsubscribe any time.
+
+--===============2068504056850537433==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>New arrivals! <a href=3D"https://u1234.ct.sendgrid.net/ls/click?upn=3Dabc"=
+>bluebirdbooks.com</a></p><p><a href=3D"https://u1234.ct.sendgrid.net/unsub">=
+Unsubscribe</a></p>
+
+--===============2068504056850537433==--

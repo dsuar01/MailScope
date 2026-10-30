@@ -1,0 +1,4 @@
+# MailScope needs only the Python standard library for analysis, reports and tests.
+# These two packages are used by the web interface and the optional DKIM check.
+streamlit>=1.30
+dkimpy>=1.1

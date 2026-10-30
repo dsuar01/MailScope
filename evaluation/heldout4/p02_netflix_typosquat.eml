@@ -1,0 +1,25 @@
+From: Netflix Billing <billing@netfliix.com>
+To: recipient@example.org
+Subject: Payment declined - update your billing information
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4936589265334275555=="
+
+--===============4936589265334275555==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We could not process your last payment. Update your payment method within 24 =
+hours to avoid losing access: https://netfliix.com/billing
+
+--===============4936589265334275555==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>We could not process your payment.</p><p><a href=3D"https://netfliix.com/b=
+illing">Update payment method</a></p>
+
+--===============4936589265334275555==--

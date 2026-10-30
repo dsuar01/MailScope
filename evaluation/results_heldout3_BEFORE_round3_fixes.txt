@@ -1,0 +1,58 @@
+Set: evaluation/heldout3   messages: 38 (18 suspicious, 20 legitimate)
+  MailScope                              flag>=40  TP=14 FN= 4 FP= 0 TN=20  recall=0.78 precision=1.00
+  MailScope (low-signal threshold 15)    flag>=15  TP=16 FN= 2 FP= 1 TN=19  recall=0.89 precision=0.94
+  Naive keyword baseline*                flag>=50  TP= 0 FN=18 FP= 0 TN=20  recall=0.00 precision=nan
+  Analysis failures: 0
+  Flagged but typed differently from label (phishing vs spam/scam): 0
+
+Disagreements at threshold 40:
+  FALSE NEGATIVE: p02_it_helpdesk_quota label=phishing score=19 verdict='Some suspicious signals (possible phishing)' signals=['credential_request', 'pressure']
+      note: Mailbox-full lure from a lookalike of the company's own helpdesk domain
+  FALSE NEGATIVE: p08_gdrive_subdomain_trick label=phishing score=34 verdict='Some suspicious signals (possible phishing)' signals=['link_lookalike_moderate', 'link_abused_tld']
+      note: Google Drive share where the real registrable domain is share-docs.top
+  FALSE NEGATIVE: p14_tech_support_scam label=phishing score=10 verdict='No strong signals found (this is not a safety clearance)' signals=['pressure']
+      note: Fake virus alert telling the reader to call a number
+  FALSE NEGATIVE: p15_hijacked_account_link label=phishing score=0 verdict='No strong signals found (this is not a safety clearance)' signals=[]
+      note: Hard: hijacked real mailbox, one-line message with a file link (expected miss)
+
+All rows:
+  n01_slack_digest                   legit      score=  0 Minimal  none             base=  5 []
+  n02_airline_itinerary              legit      score=  0 Minimal  none             base=  5 []
+  n03_bank_alert_never_ask           legit      score= 10 Minimal  none             base= 25 ['payment_request']
+  n04_google_security_alert          legit      score= 10 Minimal  none             base= 10 ['pressure']
+  n05_uber_receipt                   legit      score=  0 Minimal  none             base=  5 []
+  n06_university_password_expiry     legit      score= 10 Minimal  none             base= 20 ['credential_request']
+  n07_colleague_pdf                  legit      score=  0 Minimal  none             base= 10 []
+  n08_mailchimp_small_brand          legit      score=  0 Minimal  none             base=  5 []
+  n09_substack                       legit      score=  0 Minimal  none             base=  5 []
+  n10_friend_gmail                   legit      score=  0 Minimal  none             base=  0 []
+  n11_docusign_genuine               legit      score= 10 Minimal  none             base=  5 ['document_lure']
+  n12_stripe_invoice                 legit      score=  0 Minimal  none             base=  5 []
+  n13_calendar_invite                legit      score=  0 Minimal  none             base=  5 []
+  n14_law_firm_notice                legit      score=  0 Minimal  none             base= 10 []
+  n15_etsy_shipped                   legit      score=  0 Minimal  none             base=  5 []
+  n16_retail_promo                   legit      score= 19 Low      minor            base=  5 ['pressure', 'promo_spam']
+  n17_german_shipping                legit      score=  0 Minimal  none             base=  5 []
+  n18_idn_shop_order                 legit      score=  0 Minimal  none             base=  5 []
+  n19_vendor_bank_notice_own_domain  legit      score=  0 Minimal  none             base= 10 []
+  n20_spotify_confirm_email          legit      score=  0 Minimal  none             base= 25 []
+  p01_zoom_recording_lookalike       phishing   score= 98 High     phishing_likely  base=  5 ['combo_deception_intent', 'lookalike_sender_domain', 'link_lookalike_strong', 'link_text_mismatch']
+  p02_it_helpdesk_quota              phishing   score= 19 Low      minor            base= 40 ['credential_request', 'pressure']
+  p03_usps_missed_delivery           phishing   score= 64 Medium   suspicious       base=  5 ['brand_display_mismatch', 'link_shortener']
+  p04_iso_invoice                    phishing   score= 51 Medium   suspicious       base= 10 ['att_diskimg:Invoice_88213.iso', 'combo_attachment_lure']
+  p05_cfo_wire_gmail                 phishing   score= 83 High     phishing_likely  base= 15 ['combo_payment_redirect', 'payment_request', 'exec_request']
+  p06_vendor_bank_reply_to           phishing   score= 88 High     phishing_likely  base=  5 ['combo_payment_redirect', 'reply_to_freemail', 'payment_request']
+  p07_coinbase_wallet                phishing   score= 99 High     phishing_likely  base= 20 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p08_gdrive_subdomain_trick         phishing   score= 34 Low      minor            base=  5 ['link_lookalike_moderate', 'link_abused_tld']
+  p09_html_attachment_login          phishing   score= 72 High     phishing_likely  base= 25 ['att_html_active:PaySlip_Login.html', 'credential_request']
+  p10_irs_refund                     phishing   score= 60 Medium   suspicious       base=  5 ['brand_display_mismatch']
+  p11_mystery_shopper_check          scam_spam  score= 59 Medium   spam_scam        base=  0 ['org_name_on_freemail', 'prize_or_fee_scam', 'combo_scam_freemail', 'get_rich_scheme']
+  p12_advance_fee_barrister          scam_spam  score= 66 Medium   spam_scam        base= 15 ['prize_or_fee_scam', 'combo_scam_freemail']
+  p13_crypto_giveaway                scam_spam  score= 71 High     spam_scam        base=  5 ['get_rich_scheme', 'link_abused_tld', 'pressure', 'promo_spam']
+  p14_tech_support_scam              phishing   score= 10 Minimal  none             base= 15 ['pressure']
+  p15_hijacked_account_link          phishing   score=  0 Minimal  none             base=  5 []
+  p16_docusign_lookalike_button      phishing   score= 97 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p17_pharma_spam                    scam_spam  score= 64 Medium   spam_scam        base= 35 ['promo_spam', 'pressure']
+  p18_xlsm_invoice                   phishing   score= 51 Medium   suspicious       base= 15 ['att_macro:Statement_Sep.xlsm', 'combo_attachment_lure']
+
+* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.

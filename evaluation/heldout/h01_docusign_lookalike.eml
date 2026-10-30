@@ -1,0 +1,25 @@
+From: DocuSign <dse@docusign-review.net>
+To: recipient@example.org
+Subject: Completed: Please review and sign the agreement
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4981199381376224618=="
+
+--===============4981199381376224618==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A document has been shared with you. Review the document: https://docusign-re=
+view.net/d/9921
+
+--===============4981199381376224618==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>A document has been shared with you.</p><p><a href=3D"https://docusign-rev=
+iew.net/d/9921">REVIEW DOCUMENT</a></p>
+
+--===============4981199381376224618==--

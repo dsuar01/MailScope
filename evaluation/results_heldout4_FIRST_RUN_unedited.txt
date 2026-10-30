@@ -1,0 +1,74 @@
+Set: evaluation/heldout4   messages: 44 (22 suspicious, 22 legitimate)
+  MailScope                              flag>=40  TP=14 FN= 8 FP= 1 TN=21  recall=0.64 precision=0.93
+  MailScope (low-signal threshold 15)    flag>=15  TP=18 FN= 4 FP= 4 TN=18  recall=0.82 precision=0.82
+  Naive keyword baseline*                flag>=50  TP= 0 FN=22 FP= 0 TN=22  recall=0.00 precision=nan
+  Analysis failures: 0
+  Flagged but typed differently from label (phishing vs spam/scam): 0
+
+Disagreements at threshold 40:
+  FALSE POSITIVE: n22_idn_japanese_shop label=legit score=84 verdict='Likely phishing or fraud' signals=['mixed_script_sender', 'link_mixed_script']
+      note: Order confirmation from an internationalised .jp domain
+  FALSE NEGATIVE: p06_ceo_reply_to_other_corp label=phishing score=27 verdict='Some suspicious signals (possible phishing)' signals=['reply_to_diverges', 'pressure', 'exec_request']
+      note: Executive name with reply-to pointing to an unrelated corporate-looking domain
+  FALSE NEGATIVE: p09_pdf_link_invoice label=phishing score=10 verdict='No strong signals found (this is not a safety clearance)' signals=['link_abused_tld']
+      note: Invoice PDF whose only content is a link to a throwaway domain
+  FALSE NEGATIVE: p14_zelle_accept label=phishing score=19 verdict='Some suspicious signals (possible phishing)' signals=['credential_request', 'pressure']
+      note: Fake Zelle payment-received lure
+  FALSE NEGATIVE: p16_loan_spam label=scam_spam score=37 verdict='Some spam-like signals' signals=['promo_spam', 'pressure']
+      note: Loan spam
+  FALSE NEGATIVE: p17_domain_renewal_scam label=scam_spam score=0 verdict='No strong signals found (this is not a safety clearance)' signals=[]
+      note: Fake domain-registry renewal notice
+  FALSE NEGATIVE: p18_wrong_number_lure label=phishing score=0 verdict='No strong signals found (this is not a safety clearance)' signals=[]
+      note: Hard: wrong-number conversation starter with no link or request (expected miss)
+  FALSE NEGATIVE: p19_hijacked_vendor_thread label=phishing score=0 verdict='No strong signals found (this is not a safety clearance)' signals=[]
+      note: Hard: reply inside an existing thread from a hijacked real mailbox, one link (expected miss)
+  FALSE NEGATIVE: p20_dating_spam label=scam_spam score=19 verdict='Some suspicious signals (possible phishing)' signals=['link_abused_tld', 'promo_spam']
+      note: Dating spam with abused-TLD link
+
+All rows:
+  n01_microsoft_real_signin          legit      score= 10 Minimal  none             base= 10 ['pressure']
+  n02_paypal_receipt                 legit      score=  0 Minimal  none             base=  5 []
+  n03_amazon_shipment                legit      score=  0 Minimal  none             base=  5 []
+  n04_linkedin_real                  legit      score= 19 Low      minor            base=  5 ['document_lure', 'exec_request']
+  n05_zoom_invite                    legit      score=  0 Minimal  none             base=  5 []
+  n06_dropbox_share_real             legit      score= 10 Minimal  none             base=  5 ['document_lure']
+  n07_internal_invoice_approval      legit      score=  0 Minimal  none             base= 10 []
+  n08_wellsfargo_statement           legit      score= 10 Minimal  none             base=  5 ['credential_request']
+  n09_google_groups_digest           legit      score= 30 Low      minor            base=  0 ['lookalike_sender_domain']
+  n10_sendgrid_brand_news            legit      score=  0 Minimal  none             base=  5 []
+  n11_adobe_sign_real                legit      score=  0 Minimal  none             base=  5 []
+  n12_ups_update                     legit      score=  0 Minimal  none             base=  5 []
+  n13_clinic_portal                  legit      score= 10 Minimal  none             base= 20 ['credential_request']
+  n14_portuguese_bank                legit      score=  0 Minimal  none             base=  5 []
+  n15_loan_servicer                  legit      score= 10 Minimal  none             base= 10 ['credential_request']
+  n16_kraken_withdrawal              legit      score= 10 Minimal  none             base= 25 ['pressure']
+  n17_boss_gmail_availability        legit      score= 10 Minimal  none             base=  0 ['exec_request']
+  n18_charity_receipt                legit      score=  0 Minimal  none             base=  5 []
+  n19_retail_sale_caps               legit      score= 23 Low      minor            base=  5 ['pressure', 'promo_spam', 'shouting']
+  n20_friend_forward_news            legit      score=  0 Minimal  none             base=  5 []
+  n21_supplier_first_remittance      legit      score=  0 Minimal  none             base= 10 []
+  n22_idn_japanese_shop              legit      score= 84 High     phishing_likely  base=  5 ['mixed_script_sender', 'link_mixed_script']
+  p01_dropbox_lookalike              phishing   score= 97 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p02_netflix_typosquat              phishing   score= 95 High     phishing_likely  base= 20 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_moderate']
+  p03_apple_id_locked_ip             phishing   score= 96 High     phishing_likely  base= 35 ['combo_deception_intent', 'brand_display_mismatch', 'link_ip_host', 'credential_request']
+  p04_linkedin_lookalike             phishing   score= 97 High     phishing_likely  base=  5 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p05_zip_password_in_body           phishing   score= 51 Medium   suspicious       base= 25 ['att_password_in_body', 'combo_attachment_lure']
+  p06_ceo_reply_to_other_corp        phishing   score= 27 Low      minor            base= 15 ['reply_to_diverges', 'pressure', 'exec_request']
+  p07_direct_deposit_change          phishing   score= 60 Medium   suspicious       base=  5 ['payment_request']
+  p08_prize_iphone                   scam_spam  score= 68 Medium   spam_scam        base= 40 ['prize_or_fee_scam', 'link_abused_tld', 'pressure']
+  p09_pdf_link_invoice               phishing   score= 10 Minimal  none             base= 10 ['link_abused_tld']
+  p10_qr_only_microsoft              phishing   score= 60 Medium   suspicious       base=  0 ['brand_display_mismatch']
+  p11_sextortion_password            phishing   score= 64 Medium   suspicious       base= 20 ['extortion_threat', 'pressure']
+  p12_geeksquad_callback             phishing   score= 64 Medium   suspicious       base= 15 ['callback_scam', 'pressure']
+  p13_chase_lookalike                phishing   score= 98 High     phishing_likely  base= 25 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'link_lookalike_strong']
+  p14_zelle_accept                   phishing   score= 19 Low      minor            base= 20 ['credential_request', 'pressure']
+  p15_html_voicemail_redirect        phishing   score= 72 High     phishing_likely  base= 10 ['att_html_active:VM_0032.html', 'combo_attachment_lure']
+  p16_loan_spam                      scam_spam  score= 37 Low      minor            base=  5 ['promo_spam', 'pressure']
+  p17_domain_renewal_scam            scam_spam  score=  0 Minimal  none             base=  5 []
+  p18_wrong_number_lure              phishing   score=  0 Minimal  none             base=  0 []
+  p19_hijacked_vendor_thread         phishing   score=  0 Minimal  none             base=  5 []
+  p20_dating_spam                    scam_spam  score= 19 Low      minor            base=  5 ['link_abused_tld', 'promo_spam']
+  p21_dhl_shortener_payment          phishing   score= 64 Medium   suspicious       base=  5 ['brand_display_mismatch', 'link_shortener']
+  p22_voucher_credentials_form       phishing   score= 60 Medium   suspicious       base= 20 ['html_password_form']
+
+* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.

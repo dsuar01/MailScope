@@ -1,0 +1,23 @@
+From: Rina Patel <rina.patel@acmecorp.com>
+To: recipient@example.org
+Subject: Notes from Thursday
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6041101384295601705=="
+
+--===============6041101384295601705==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi, notes from Thursday's sync are attached. Let me know if I missed anything.
+
+--===============6041101384295601705==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Notes_Thursday.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKdHJhaWxlcjw8Pj4KJSVFT0Y=
+
+--===============6041101384295601705==--

@@ -1,0 +1,24 @@
+From: Accounts <billing@vendor-pay.net>
+To: recipient@example.org
+Subject: Invoice attached
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1315979209977220504=="
+
+--===============1315979209977220504==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please find the overdue invoice attached. Remit payment today.
+
+--===============1315979209977220504==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-7731.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9PcGVuQWN0aW9uPDwvUy9KYXZhU2NyaXB0
+L0pTKGFwcC5hbGVydCgxKSk+Pj4+ZW5kb2JqCiUlRU9G
+
+--===============1315979209977220504==--

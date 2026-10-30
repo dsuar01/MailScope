@@ -1,0 +1,25 @@
+From: Internal Revenue Service <refunds@irs-refund-gov.com>
+To: recipient@example.org
+Subject: You are eligible for a tax refund of $1,284.00
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5588656303852994530=="
+
+--===============5588656303852994530==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+After the last annual calculation we determined you are eligible for a refund=
+. Claim it here: https://irs-refund-gov.com/claim
+
+--===============5588656303852994530==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>You are eligible for a refund of $1,284.00.</p><p><a href=3D"https://irs-r=
+efund-gov.com/claim">Claim your refund</a></p>
+
+--===============5588656303852994530==--

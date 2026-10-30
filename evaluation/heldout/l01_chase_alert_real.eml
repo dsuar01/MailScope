@@ -1,0 +1,25 @@
+From: Chase <no-reply@alertsp.chase.com>
+To: recipient@example.org
+Subject: Your Chase account: verify recent activity
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2688563917083033208=="
+
+--===============2688563917083033208==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We want to confirm recent activity on your account. Review it by signing in a=
+t https://www.chase.com/login. We will never ask for your password by email.
+
+--===============2688563917083033208==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>We want to confirm recent activity. <a href=3D"https://www.chase.com/login=
+">Sign in at chase.com</a>. We will never ask for your password by email.</p>
+
+--===============2688563917083033208==--

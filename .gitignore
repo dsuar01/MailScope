@@ -1,0 +1,12 @@
+# private Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Never commit real emails, reports made from them, or keys.
+# (The synthetic test emails in evaluation/ and samples/ are fine and ARE committed.)
+my_emails/
+private/
+*.report.html
+.streamlit/secrets.toml
+.env

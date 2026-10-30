@@ -1,0 +1,27 @@
+From: HR Department <hr@northwind-payroll.com>
+To: recipient@example.org
+Subject: Action required: update your direct deposit details
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4750937892434608330=="
+
+--===============4750937892434608330==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Our payroll provider has changed. All employees must update their direct depo=
+sit information today at https://northwind-hrportal.com/login so your next sa=
+lary is not delayed.
+
+--===============4750937892434608330==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Our payroll provider has changed. All employees must update their direct d=
+eposit information today: <a href=3D"https://northwind-hrportal.com/login">HR=
+ portal</a></p>
+
+--===============4750937892434608330==--

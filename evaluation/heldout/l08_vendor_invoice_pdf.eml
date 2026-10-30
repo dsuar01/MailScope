@@ -1,0 +1,24 @@
+From: Billing <billing@lakeshorepartners.com>
+To: recipient@example.org
+Subject: Invoice 2024-118 due Nov 15
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4338471101574379857=="
+
+--===============4338471101574379857==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Attached is invoice 2024-118 for $1,200. Payment is due Nov 15. Thank you for=
+ your business.
+
+--===============4338471101574379857==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice-2024-118.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKJSVFT0Y=
+
+--===============4338471101574379857==--

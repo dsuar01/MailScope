@@ -1,0 +1,25 @@
+From: DocuSign <dse@docusign-secure.net>
+To: recipient@example.org
+Subject: Completed: Please review and sign Agreement-2291
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3713159026717781199=="
+
+--===============3713159026717781199==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your document is ready for review and signature. REVIEW DOCUMENT: https://doc=
+usign-secure.net/sign/2291
+
+--===============3713159026717781199==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your document is ready for review and signature.</p><p><a href=3D"https://=
+docusign-secure.net/sign/2291">REVIEW DOCUMENT</a></p>
+
+--===============3713159026717781199==--

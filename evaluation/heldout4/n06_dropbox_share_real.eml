@@ -1,0 +1,25 @@
+From: Dropbox <no-reply@dropbox.com>
+To: recipient@example.org
+Subject: Marta shared 'Q3 contracts' with you
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1026050773005804487=="
+
+--===============1026050773005804487==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Marta shared a folder with you. View folder: https://www.dropbox.com/scl/fo/a=
+bc/xyz
+
+--===============1026050773005804487==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Marta shared a folder with you. <a href=3D"https://www.dropbox.com/scl/fo/=
+abc/xyz">View folder</a></p>
+
+--===============1026050773005804487==--

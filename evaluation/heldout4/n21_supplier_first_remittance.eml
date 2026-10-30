@@ -1,0 +1,24 @@
+From: Accounts <accounts@tidewater-packaging.com>
+To: recipient@example.org
+Subject: Welcome - how to pay your first invoice
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5288557168182994146=="
+
+--===============5288557168182994146==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Welcome as a customer. Our remittance details for invoice TW-1001 are on the =
+invoice itself (attached). Please let us know if anything is unclear.
+
+--===============5288557168182994146==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="TW-1001.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKdHJhaWxlcjw8Pj4KJSVFT0Y=
+
+--===============5288557168182994146==--

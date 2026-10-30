@@ -1,0 +1,25 @@
+From: Chase Alerts <alerts@chasealerts-mail.net>
+To: recipient@example.org
+Subject: Security alert on your account
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7514571575344085467=="
+
+--===============7514571575344085467==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We detected unauthorized access. Please confirm your account details immediat=
+ely.
+
+--===============7514571575344085467==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>We detected unauthorized access. <a href=3D"http://203.0.113.9/chase/login=
+">www.chase.com/secure</a> to confirm your account details immediately.</p>
+
+--===============7514571575344085467==--

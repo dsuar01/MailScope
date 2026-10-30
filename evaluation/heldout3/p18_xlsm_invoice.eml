@@ -1,0 +1,24 @@
+From: Accounts Receivable <ar@lumen-parts.co>
+To: recipient@example.org
+Subject: Statement of account
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4291342064752388018=="
+
+--===============4291342064752388018==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see attached statement of account for September.
+
+--===============4291342064752388018==
+Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Statement_Sep.xlsm"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAA=
+
+--===============4291342064752388018==--

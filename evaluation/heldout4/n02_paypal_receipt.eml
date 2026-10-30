@@ -1,0 +1,25 @@
+From: PayPal <service@paypal.com>
+To: recipient@example.org
+Subject: Receipt for your payment to Green Valley Books
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============9203321342006522656=="
+
+--===============9203321342006522656==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+You sent a payment of $23.40 USD to Green Valley Books. View details: https:/=
+/www.paypal.com/activity/payment/5RX
+
+--===============9203321342006522656==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>You sent $23.40 USD to Green Valley Books. <a href=3D"https://www.paypal.c=
+om/activity/payment/5RX">View details</a></p>
+
+--===============9203321342006522656==--

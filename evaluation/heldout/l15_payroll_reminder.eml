@@ -1,0 +1,25 @@
+From: HR Team <hr@acmecorp.com>
+To: recipient@example.org
+Subject: Reminder: benefits enrollment closes Friday
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4724468377173609570=="
+
+--===============4724468377173609570==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+To update your direct deposit information or benefits elections, log in to th=
+e HR portal at https://hr.acmecorp.com before Friday.
+
+--===============4724468377173609570==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>To update your direct deposit information or benefits elections, log in to=
+ the <a href=3D"https://hr.acmecorp.com">HR portal</a> before Friday.</p>
+
+--===============4724468377173609570==--

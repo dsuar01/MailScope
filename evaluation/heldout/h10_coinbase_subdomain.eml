@@ -1,0 +1,25 @@
+From: Coinbase <no-reply@coinbase.account-center.live>
+To: recipient@example.org
+Subject: Confirm your wallet withdrawal
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5481382198532751456=="
+
+--===============5481382198532751456==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A withdrawal was requested. If this was not you, verify your account now: htt=
+ps://coinbase.account-center.live/secure
+
+--===============5481382198532751456==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>A withdrawal was requested. If this was not you, <a href=3D"https://coinba=
+se.account-center.live/secure">verify your account</a> now.</p>
+
+--===============5481382198532751456==--

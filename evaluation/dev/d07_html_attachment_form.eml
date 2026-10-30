@@ -1,0 +1,25 @@
+From: Shared Files <noreply@docs-share.example.net>
+To: recipient@example.org
+Subject: Voicemail received
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8043146167429382402=="
+
+--===============8043146167429382402==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+You have a new voicemail. Open the attachment to listen.
+
+--===============8043146167429382402==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="voicemail.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGZvcm0gYWN0aW9uPSdodHRwczovL3guZXhhbXBsZS5uZXQvZyc+PGlucHV0IHR5cGU9
+J3Bhc3N3b3JkJz48L2Zvcm0+PHNjcmlwdD5ldmFsKGF0b2IoJ0FBQUEnKSk8L3NjcmlwdD48L2h0
+bWw+
+
+--===============8043146167429382402==--

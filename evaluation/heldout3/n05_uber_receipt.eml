@@ -1,0 +1,25 @@
+From: Uber Receipts <noreply@uber.com>
+To: recipient@example.org
+Subject: Your Tuesday evening trip with Mehmet
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0440387311517518186=="
+
+--===============0440387311517518186==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Total $18.20. Thanks for riding with Uber. View your receipt: https://www.ube=
+r.com/receipt/8812
+
+--===============0440387311517518186==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Total $18.20. <a href=3D"https://www.uber.com/receipt/8812">View receipt</=
+a></p>
+
+--===============0440387311517518186==--

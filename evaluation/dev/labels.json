@@ -1,0 +1,66 @@
+{
+  "d01_paypal_homoglyph": {
+    "label": "phishing",
+    "note": "Cyrillic 'a' in paypal sender domain, login link to lookalike"
+  },
+  "d02_microsoft_gmail_password": {
+    "label": "phishing",
+    "note": "Brand display name on gmail, password-expiry lure"
+  },
+  "d03_text_href_mismatch": {
+    "label": "phishing",
+    "note": "Anchor text shows the bank but href goes elsewhere"
+  },
+  "d04_ceo_giftcards": {
+    "label": "phishing",
+    "note": "Executive impersonation from free mail, gift cards"
+  },
+  "d05_bank_change_replyto": {
+    "label": "phishing",
+    "note": "Vendor bank-detail change with diverted replies"
+  },
+  "d06_exe_invoice": {
+    "label": "phishing",
+    "note": "Executable disguised as invoice"
+  },
+  "d07_html_attachment_form": {
+    "label": "phishing",
+    "note": "HTML attachment containing a password form"
+  },
+  "d08_lottery": {
+    "label": "scam_spam",
+    "note": "Advance-fee lottery"
+  },
+  "d09_pharma_spam": {
+    "label": "scam_spam",
+    "note": "Bulk pharma spam"
+  },
+  "d10_newsletter_sendgrid": {
+    "label": "legit",
+    "note": "Marketing newsletter via click-tracking domain"
+  },
+  "d11_github_notification": {
+    "label": "legit",
+    "note": "Developer notification, links on own domain"
+  },
+  "d12_real_password_reset": {
+    "label": "legit",
+    "note": "Genuine-style password reset, all links on sender domain"
+  },
+  "d13_idn_shop": {
+    "label": "legit",
+    "note": "Legitimate internationalized (single-script) domain"
+  },
+  "d14_personal_gmail": {
+    "label": "legit",
+    "note": "Ordinary personal message from free mail"
+  },
+  "d15_legal_notice_pdf": {
+    "label": "legit",
+    "note": "Law-firm notice with benign PDF attachment"
+  },
+  "d16_mailing_list": {
+    "label": "legit",
+    "note": "Mailing list post: Reply-To is the list address"
+  }
+}

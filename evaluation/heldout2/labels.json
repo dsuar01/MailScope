@@ -1,0 +1,102 @@
+{
+  "n01_small_biz_gmail_support": {
+    "label": "legit",
+    "note": "Small business that really uses a gmail address with a 'Support' style name"
+  },
+  "n02_bank_security_reassurance": {
+    "label": "legit",
+    "note": "Genuine bank mail that tells customers never to share passwords"
+  },
+  "n03_store_receipt_call_us": {
+    "label": "legit",
+    "note": "Genuine store receipt that says to call if you did not place the order"
+  },
+  "n04_finance_newsletter_risk_free": {
+    "label": "legit",
+    "note": "Finance newsletter that mentions the risk-free rate"
+  },
+  "n05_hr_wfh_policy": {
+    "label": "legit",
+    "note": "Company HR announcing a work-from-home policy"
+  },
+  "n06_teams_notification": {
+    "label": "legit",
+    "note": "Microsoft Teams notification on a Microsoft subdomain"
+  },
+  "n07_netflix_marketing_subdomain": {
+    "label": "legit",
+    "note": "Brand marketing from a brand mailer subdomain"
+  },
+  "n08_support_reply_confirm_address": {
+    "label": "legit",
+    "note": "Real support reply asking to confirm a shipping address"
+  },
+  "n09_dropbox_reset": {
+    "label": "legit",
+    "note": "Genuine Dropbox password reset"
+  },
+  "n10_forwarded_to_security": {
+    "label": "legit",
+    "note": "Employee forwards a suspicious message to the security team (quoted phishing text)"
+  },
+  "n11_ride_receipt_pdf": {
+    "label": "legit",
+    "note": "Ride-share receipt with PDF"
+  },
+  "n12_munich_city": {
+    "label": "legit",
+    "note": "German city email on an IDN domain"
+  },
+  "p01_spoofed_ceo_replyto": {
+    "label": "phishing",
+    "note": "Own-company executive name, replies diverted to gmail, gift cards"
+  },
+  "p02_sharepoint_subdomain_trick": {
+    "label": "phishing",
+    "note": "Brand-laden subdomain on unrelated domain"
+  },
+  "p03_wells_ip_link": {
+    "label": "phishing",
+    "note": "Lookalike bank domain with raw IP link"
+  },
+  "p04_pdf_javascript": {
+    "label": "phishing",
+    "note": "PDF with JavaScript, invoice lure"
+  },
+  "p05_docm_resume": {
+    "label": "phishing",
+    "note": "Macro-enabled 'resume' from a free mailbox"
+  },
+  "p06_punycode_link": {
+    "label": "phishing",
+    "note": "Punycode lookalike link (Cyrillic apple) in a generic message"
+  },
+  "p07_prof_giftcards": {
+    "label": "phishing",
+    "note": "Professor-style display name on gmail asking for gift cards"
+  },
+  "p08_binance_tld_subdomain": {
+    "label": "phishing",
+    "note": "Brand as subdomain of an abused TLD domain"
+  },
+  "p09_sextortion_plain": {
+    "label": "phishing",
+    "note": "Hard: plaintext sextortion with no links, little structure"
+  },
+  "p10_quiet_bec": {
+    "label": "phishing",
+    "note": "Hard: low-keyword bank-change request from a lookalike partner domain"
+  },
+  "p11_netflix_payment_failed": {
+    "label": "phishing",
+    "note": "Brand-token domain, payment-failed lure"
+  },
+  "s01_widow_charity": {
+    "label": "scam_spam",
+    "note": "Charity-widow fund scam"
+  },
+  "s02_pharma_shop": {
+    "label": "scam_spam",
+    "note": "Pharma spam"
+  }
+}

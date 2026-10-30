@@ -1,0 +1,25 @@
+From: Google Calendar <calendar-notification@google.com>
+To: recipient@example.org
+Subject: Invitation: Project kickoff @ Wed 10am
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0019208352224286214=="
+
+--===============0019208352224286214==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+You have been invited to Project kickoff. View all details: https://calendar.=
+google.com/calendar/event?eid=3Dabc
+
+--===============0019208352224286214==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>You have been invited to Project kickoff. <a href=3D"https://calendar.goog=
+le.com/calendar/event?eid=3Dabc">View details</a></p>
+
+--===============0019208352224286214==--

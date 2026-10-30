@@ -1,0 +1,25 @@
+From: Delta Air Lines <DeltaAirLines@t.delta.com>
+To: recipient@example.org
+Subject: Your trip confirmation: JFK to LAX
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8411774704190552558=="
+
+--===============8411774704190552558==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks for booking. Your confirmation number is HJK29L. Manage your trip at h=
+ttps://www.delta.com/mytrips.
+
+--===============8411774704190552558==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your confirmation number is HJK29L. <a href=3D"https://www.delta.com/mytri=
+ps">Manage your trip</a></p>
+
+--===============8411774704190552558==--

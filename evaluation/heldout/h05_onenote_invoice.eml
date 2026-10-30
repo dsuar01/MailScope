@@ -1,0 +1,24 @@
+From: Accounts Payable <accounts@sup-pliers.net>
+To: recipient@example.org
+Subject: Overdue invoice 88231
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3006412501958751349=="
+
+--===============3006412501958751349==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+See the attached invoice and remit payment today.
+
+--===============3006412501958751349==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice-88231.one"
+MIME-Version: 1.0
+
+5FJce4zYp00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA
+
+--===============3006412501958751349==--

@@ -1,0 +1,24 @@
+From: Microsoft Teams <noreply@teams.microsoft.com>
+To: recipient@example.org
+Subject: You have a new message in Teams
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3348868156700873663=="
+
+--===============3348868156700873663==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Jordan sent you a message. Open Teams: https://teams.microsoft.com/l/message/1
+
+--===============3348868156700873663==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Jordan sent you a message. <a href=3D"https://teams.microsoft.com/l/messag=
+e/1">Open Teams</a></p>
+
+--===============3348868156700873663==--

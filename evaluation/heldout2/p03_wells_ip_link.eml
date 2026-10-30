@@ -1,0 +1,10 @@
+From: Wells Fargo Alerts <alerts@wellsfargo-secure.com>
+To: recipient@example.org
+Subject: Your account is limited
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+We limited your account. Confirm your identity: http://198.51.100.23/wf/login

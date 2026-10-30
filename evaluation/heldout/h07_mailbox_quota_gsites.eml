@@ -1,0 +1,26 @@
+From: IT Helpdesk <helpdesk@company-itdesk.example>
+To: recipient@example.org
+Subject: Your mailbox is almost full
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2075222747556354628=="
+
+--===============2075222747556354628==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your mailbox has exceeded its storage limit. Verify your mailbox to avoid los=
+ing incoming messages: https://sites.google.com/view/mailbox-verify-9912
+
+--===============2075222747556354628==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your mailbox has exceeded its storage limit. <a href=3D"https://sites.goog=
+le.com/view/mailbox-verify-9912">Verify your mailbox</a> to avoid losing inco=
+ming messages.</p>
+
+--===============2075222747556354628==--

@@ -1,0 +1,24 @@
+From: Job Applicant <emma.hayes.cv@gmail.com>
+To: recipient@example.org
+Subject: Application for the open position
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1641504216244232081=="
+
+--===============1641504216244232081==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello, my resume is attached for your review.
+
+--===============1641504216244232081==
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Resume_Emma_Hayes.docm"
+MIME-Version: 1.0
+
+UEsDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAA==
+
+--===============1641504216244232081==--

@@ -1,0 +1,11 @@
+From: Orders <orders@thekitchenstore.com>
+To: recipient@example.org
+Subject: Your order receipt #55812
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Thank you for your order. Your card was charged $84.50. If you did not place =
+this order, please call our customer service team at 800-555-0199 right away.

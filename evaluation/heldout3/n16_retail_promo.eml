@@ -1,0 +1,27 @@
+From: Nike <nike@official.nike.com>
+To: recipient@example.org
+Subject: Limited-time offer: 30% off select styles
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+List-Unsubscribe: <https://www.nike.com/unsubscribe>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1580155551777449831=="
+
+--===============1580155551777449831==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Limited-time offer: 30% off select styles through Sunday. Shop now at https:/=
+/www.nike.com/sale. Unsubscribe: https://www.nike.com/unsubscribe
+
+--===============1580155551777449831==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Limited-time offer: 30% off select styles. <a href=3D"https://www.nike.com=
+/sale">Shop now</a></p><p><a href=3D"https://www.nike.com/unsubscribe">Unsubs=
+cribe</a></p>
+
+--===============1580155551777449831==--

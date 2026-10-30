@@ -1,0 +1,25 @@
+From: LinkedIn <notifications@linkedin-mail-center.co>
+To: recipient@example.org
+Subject: Your profile appeared in 9 searches this week
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3515646732854755490=="
+
+--===============3515646732854755490==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+See who is looking at your profile. Sign in to view: https://linkedin-mail-ce=
+nter.co/login
+
+--===============3515646732854755490==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>See who is looking at your profile. <a href=3D"https://linkedin-mail-cente=
+r.co/login">Sign in to view</a></p>
+
+--===============3515646732854755490==--

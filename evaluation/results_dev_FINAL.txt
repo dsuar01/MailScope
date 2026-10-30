@@ -1,0 +1,29 @@
+Set: dev   messages: 16 (9 suspicious, 7 legitimate)
+  MailScope                              flag>=40  TP= 9 FN= 0 FP= 0 TN= 7  recall=1.00 precision=1.00
+  MailScope (low-signal threshold 15)    flag>=15  TP= 9 FN= 0 FP= 0 TN= 7  recall=1.00 precision=1.00
+  Naive keyword baseline*                flag>=50  TP= 2 FN= 7 FP= 0 TN= 7  recall=0.22 precision=1.00
+  Analysis failures: 0
+  Flagged but typed differently from label (phishing vs spam/scam): 0
+
+Disagreements at threshold 40:
+  (none)
+
+All rows:
+  d01_paypal_homoglyph               phishing   score= 97 High     phishing_likely  base= 55 ['combo_deception_intent', 'brand_display_mismatch', 'lookalike_sender_domain', 'mixed_script_sender']
+  d02_microsoft_gmail_password       phishing   score= 96 High     phishing_likely  base= 20 ['combo_deception_intent', 'brand_display_mismatch', 'org_name_on_freemail', 'credential_request']
+  d03_text_href_mismatch             phishing   score= 96 High     phishing_likely  base= 55 ['combo_deception_intent', 'brand_display_mismatch', 'link_ip_host', 'credential_request']
+  d04_ceo_giftcards                  phishing   score= 83 High     phishing_likely  base= 15 ['combo_payment_redirect', 'payment_request', 'exec_request']
+  d05_bank_change_replyto            phishing   score= 93 High     phishing_likely  base= 20 ['combo_payment_redirect', 'payment_request', 'reply_to_freemail', 'exec_request']
+  d06_exe_invoice                    phishing   score= 80 High     phishing_likely  base= 10 ['att_exec:Invoice_2291.pdf.exe', 'att_double_ext:Invoice_2291.pdf.exe', 'combo_attachment_lure']
+  d07_html_attachment_form           phishing   score= 72 High     phishing_likely  base= 10 ['att_html_active:voicemail.html', 'combo_attachment_lure']
+  d08_lottery                        scam_spam  score= 69 Medium   spam_scam        base= 20 ['prize_or_fee_scam', 'combo_scam_freemail', 'reply_to_diverges']
+  d09_pharma_spam                    scam_spam  score= 69 Medium   spam_scam        base= 30 ['promo_spam', 'sender_abused_tld', 'pressure', 'shouting']
+  d10_newsletter_sendgrid            legit      score=  0 Minimal  none             base=  5 []
+  d11_github_notification            legit      score=  0 Minimal  none             base=  5 []
+  d12_real_password_reset            legit      score= 10 Minimal  none             base= 35 ['pressure']
+  d13_idn_shop                       legit      score=  0 Minimal  none             base=  5 []
+  d14_personal_gmail                 legit      score= 10 Minimal  none             base=  0 ['exec_request']
+  d15_legal_notice_pdf               legit      score=  0 Minimal  none             base= 10 []
+  d16_mailing_list                   legit      score=  0 Minimal  none             base=  0 []
+
+* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.

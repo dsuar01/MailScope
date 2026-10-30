@@ -1,0 +1,24 @@
+From: Harlan & Pierce LLP <notices@harlanpierce.com>
+To: recipient@example.org
+Subject: Notice of hearing date change
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2435624226928614957=="
+
+--===============2435624226928614957==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please find attached the notice regarding the new hearing date. Contact our o=
+ffice during business hours.
+
+--===============2435624226928614957==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Notice.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKdHJhaWxlcjw8Pj4KJSVFT0Y=
+
+--===============2435624226928614957==--

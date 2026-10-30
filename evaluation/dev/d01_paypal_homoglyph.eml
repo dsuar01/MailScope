@@ -1,0 +1,27 @@
+From: PayPal Security <service@=?utf-8?q?p=D0=B0ypal?=.com>
+To: recipient@example.org
+Subject: Action required: confirm your account
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============9020270445980669427=="
+
+--===============9020270445980669427==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer, we noticed unusual activity. Please verify your account within=
+ 24 hours or it will be suspended.
+https://paypa1-secure-login.com/verify
+
+--===============9020270445980669427==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Dear customer, we noticed unusual activity. <a href=3D"https://paypa1-secu=
+re-login.com/verify">Verify your account</a> within 24 hours or it will be su=
+spended.</p>
+
+--===============9020270445980669427==--

@@ -1,0 +1,25 @@
+From: Amazon.com <shipment-tracking@amazon.com>
+To: recipient@example.org
+Subject: Your package has shipped
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3967273001957099471=="
+
+--===============3967273001957099471==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your order has shipped. Track it at https://www.amazon.com/progress-tracker/p=
+ackage/123.
+
+--===============3967273001957099471==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your order has shipped. <a href=3D"https://www.amazon.com/progress-tracker=
+/package/123">Track package</a></p>
+
+--===============3967273001957099471==--

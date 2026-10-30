@@ -1,0 +1,24 @@
+From: Zoom <no-reply@zoom.us>
+To: recipient@example.org
+Subject: Invitation: Weekly standup
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3987860539411014617=="
+
+--===============3987860539411014617==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+You are invited to a Zoom meeting. Join: https://us02web.zoom.us/j/81234567890
+
+--===============3987860539411014617==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>You are invited to a Zoom meeting. <a href=3D"https://us02web.zoom.us/j/81=
+234567890">Join</a></p>
+
+--===============3987860539411014617==--

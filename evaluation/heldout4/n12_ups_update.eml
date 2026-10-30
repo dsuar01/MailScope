@@ -1,0 +1,25 @@
+From: UPS <pkginfo@ups.com>
+To: recipient@example.org
+Subject: UPS Update: Package Scheduled for Delivery Tomorrow
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8462577553273971584=="
+
+--===============8462577553273971584==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your package is scheduled for delivery tomorrow. Track: https://www.ups.com/t=
+rack?loc=3Den_US&tracknum=3D1Z999
+
+--===============8462577553273971584==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your package is scheduled for delivery. <a href=3D"https://www.ups.com/tra=
+ck?loc=3Den_US&tracknum=3D1Z999">Track</a></p>
+
+--===============8462577553273971584==--

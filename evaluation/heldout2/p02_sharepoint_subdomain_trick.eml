@@ -1,0 +1,24 @@
+From: SharePoint <no-reply@sharepoint-notify.com>
+To: recipient@example.org
+Subject: A file was shared with you
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0545341742960927648=="
+
+--===============0545341742960927648==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Open the file: https://sharepoint.com.docs-view.ru/f/771
+
+--===============0545341742960927648==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>A file was shared with you. <a href=3D"https://sharepoint.com.docs-view.ru=
+/f/771">Open the file</a></p>
+
+--===============0545341742960927648==--

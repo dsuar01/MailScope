@@ -1,0 +1,26 @@
+From: Kraken <no-reply@kraken.com>
+To: recipient@example.org
+Subject: Withdrawal confirmation
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4109839205886269514=="
+
+--===============4109839205886269514==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+You requested a withdrawal of 0.02 BTC. If you did not request this, contact =
+support immediately and secure your account: https://support.kraken.com/hc/en=
+-us
+
+--===============4109839205886269514==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>You requested a withdrawal of 0.02 BTC. If you did not request this, <a hr=
+ef=3D"https://support.kraken.com/hc/en-us">contact support</a>.</p>
+
+--===============4109839205886269514==--

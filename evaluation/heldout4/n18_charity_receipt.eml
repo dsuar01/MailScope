@@ -1,0 +1,25 @@
+From: Hope Foundation <giving@hopefoundation.org>
+To: recipient@example.org
+Subject: Thank you for your gift of $50
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8915449649098277768=="
+
+--===============8915449649098277768==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for your gift of $50. Your tax receipt is available at https://www.=
+hopefoundation.org/receipts/9921.
+
+--===============8915449649098277768==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Thank you for your gift. <a href=3D"https://www.hopefoundation.org/receipt=
+s/9921">Tax receipt</a></p>
+
+--===============8915449649098277768==--

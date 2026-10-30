@@ -1,0 +1,27 @@
+From: Amazon Rewards <winner@amzn-prizes-center.top>
+To: recipient@example.org
+Subject: Congratulations! You have been selected to win an iPhone
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8320579661953029920=="
+
+--===============8320579661953029920==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear customer, you have been selected as the winner of our loyalty prize. Cla=
+im your reward within 24 hours by paying the small shipping fee: https://amzn=
+-prizes-center.top/claim
+
+--===============8320579661953029920==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Dear customer, you have been selected as a <b>winner</b>. <a href=3D"https=
+://amzn-prizes-center.top/claim">Claim your reward</a> after the shipping fee=
+.</p>
+
+--===============8320579661953029920==--

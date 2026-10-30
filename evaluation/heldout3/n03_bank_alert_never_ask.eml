@@ -1,0 +1,26 @@
+From: Capital One <capitalone@email.capitalone.com>
+To: recipient@example.org
+Subject: A new payment posted to your account
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8058462001408676989=="
+
+--===============8058462001408676989==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A payment of $212.40 posted to your account ending 4417. We will never ask fo=
+r your full PIN or password by email. View activity: https://www.capitalone.c=
+om/activity
+
+--===============8058462001408676989==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>A payment of $212.40 posted. We will never ask for your password by email.=
+ <a href=3D"https://www.capitalone.com/activity">View activity</a></p>
+
+--===============8058462001408676989==--

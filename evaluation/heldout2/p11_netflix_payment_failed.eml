@@ -1,0 +1,11 @@
+From: Netflix <billing@netflix-payments-update.com>
+To: recipient@example.org
+Subject: Payment failed: update your payment method
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+We could not process your payment. Update your payment method within 24 hours=
+ to avoid cancellation: https://netflix-payments-update.com/billing

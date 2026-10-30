@@ -1,0 +1,26 @@
+From: Billing <billing@acct-docs-portal.xyz>
+To: recipient@example.org
+Subject: Invoice available
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1786728259139737007=="
+
+--===============1786728259139737007==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your invoice is attached. Open the PDF and click the button to view payment o=
+ptions.
+
+--===============1786728259139737007==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_1182.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQW5ub3QvU3VidHlwZS9MaW5rL0E8PC9TL1VSSS9VUkko
+aHR0cHM6Ly9hY2N0LWRvY3MtcG9ydGFsLnh5ei9wYXkvMTE4Mik+Pj4+ZW5kb2JqCnRyYWlsZXI8
+PD4+CiUlRU9G
+
+--===============1786728259139737007==--

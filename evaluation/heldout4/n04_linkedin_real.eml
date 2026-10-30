@@ -1,0 +1,25 @@
+From: LinkedIn <messages-noreply@linkedin.com>
+To: recipient@example.org
+Subject: Ravi Menon sent you a message
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2250889036039380757=="
+
+--===============2250889036039380757==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Ravi Menon: Are you free for a quick chat next week? View message: https://ww=
+w.linkedin.com/comm/messaging/thread/123?trk=3Demail
+
+--===============2250889036039380757==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Ravi Menon sent you a message. <a href=3D"https://www.linkedin.com/comm/me=
+ssaging/thread/123?trk=3Demail">View message</a></p>
+
+--===============2250889036039380757==--

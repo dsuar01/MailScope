@@ -1,0 +1,26 @@
+From: Vendorco Accounts <accounts@vendorco.com>
+To: recipient@example.org
+Subject: Notice: our bank details are changing on 1 December
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1365088743585681713=="
+
+--===============1365088743585681713==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+From 1 December our bank details will change. The new details are published i=
+n your account portal: https://portal.vendorco.com/billing. Please do not rel=
+y on emailed details; log in to the portal.
+
+--===============1365088743585681713==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>From 1 December our bank details will change. See your portal: <a href=3D"=
+https://portal.vendorco.com/billing">portal.vendorco.com/billing</a>.</p>
+
+--===============1365088743585681713==--

@@ -1,0 +1,25 @@
+From: Acme Studio via Stripe <invoice+statements@stripe.com>
+To: recipient@example.org
+Subject: Your receipt from Acme Studio #1429-0031
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7809874992288953714=="
+
+--===============7809874992288953714==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Amount paid: $45.00. View receipt: https://invoice.stripe.com/i/acct_1/test_a=
+bc
+
+--===============7809874992288953714==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Amount paid: $45.00. <a href=3D"https://invoice.stripe.com/i/acct_1/test_a=
+bc">View receipt</a></p>
+
+--===============7809874992288953714==--

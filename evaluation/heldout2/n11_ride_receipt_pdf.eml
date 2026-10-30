@@ -1,0 +1,23 @@
+From: Uber Receipts <receipts@uber.com>
+To: recipient@example.org
+Subject: Your Tuesday evening trip with Uber
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2388915657002777070=="
+
+--===============2388915657002777070==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Thanks for riding. Your total was $18.40. Receipt attached.
+
+--===============2388915657002777070==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="receipt.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKJSVFT0Y=
+
+--===============2388915657002777070==--

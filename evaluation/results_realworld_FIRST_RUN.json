@@ -1,0 +1,151 @@
+{
+ "messages": 12271,
+ "scored": 12266,
+ "analysis_failures": 5,
+ "flagged_at_40": 5035,
+ "flagged_at_15": 8382,
+ "rate_at_40": 0.4105,
+ "rate_at_15": 0.6834,
+ "verdict_codes": {
+  "none": 3884,
+  "suspicious": 2659,
+  "minor": 3347,
+  "spam_scam": 471,
+  "phishing_likely": 1905,
+  "incomplete": 5
+ },
+ "indicator_bands": {
+  "Minimal": 3887,
+  "Medium": 3101,
+  "Low": 3349,
+  "High": 1934
+ },
+ "network_attempts_blocked": 0,
+ "seconds": 877.3,
+ "most_common_signals": [
+  [
+   "recorded_auth_fail",
+   6928
+  ],
+  [
+   "shouting",
+   3678
+  ],
+  [
+   "pressure",
+   3017
+  ],
+  [
+   "lookalike_sender_domain",
+   2450
+  ],
+  [
+   "no_from",
+   2108
+  ],
+  [
+   "reply_to_diverges",
+   1850
+  ],
+  [
+   "combo_deception_intent",
+   1752
+  ],
+  [
+   "link_shortener",
+   1194
+  ],
+  [
+   "link_lookalike_moderate",
+   526
+  ],
+  [
+   "prize_or_fee_scam",
+   467
+  ],
+  [
+   "brand_display_mismatch",
+   463
+  ],
+  [
+   "credential_request",
+   434
+  ],
+  [
+   "link_text_mismatch",
+   364
+  ],
+  [
+   "link_userinfo",
+   340
+  ],
+  [
+   "promo_spam",
+   318
+  ],
+  [
+   "combo_credential_unrelated_link",
+   315
+  ],
+  [
+   "link_redirect_param",
+   312
+  ],
+  [
+   "link_abused_tld",
+   282
+  ],
+  [
+   "reply_to_freemail",
+   236
+  ],
+  [
+   "get_rich_scheme",
+   192
+  ],
+  [
+   "link_ip_host",
+   154
+  ],
+  [
+   "payment_request",
+   143
+  ],
+  [
+   "mixed_script_sender",
+   114
+  ],
+  [
+   "sender_abused_tld",
+   104
+  ],
+  [
+   "combo_scam_freemail",
+   93
+  ]
+ ],
+ "failures_first_20": [
+  [
+   "sample-2018.eml",
+   "incomplete: Parsing failed: LookupError"
+  ],
+  [
+   "sample-2024.eml",
+   "incomplete: The file does not look like an email message (no recognisable headers). Export the message as .eml and try again."
+  ],
+  [
+   "sample-2227.eml",
+   "incomplete: The file does not look like an email message (no recognisable headers). Export the message as .eml and try again."
+  ],
+  [
+   "sample-423.eml",
+   "incomplete: Parsing failed: LookupError"
+  ],
+  [
+   "sample-666.eml",
+   "incomplete: Parsing failed: LookupError"
+  ]
+ ],
+ "not_flagged_at_15_count": 3884,
+ "note": "FIRST RUN, engine before round 4. Aggregate numbers only; no message content. Corpus: Phishing Pot (CC BY-NC 4.0), contains no legitimate mail."
+}

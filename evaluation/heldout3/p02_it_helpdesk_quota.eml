@@ -1,0 +1,26 @@
+From: IT Helpdesk <helpdesk@acmecorp-support.net>
+To: recipient@example.org
+Subject: Action required: mailbox storage 98% full
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0527615422885352024=="
+
+--===============0527615422885352024==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your mailbox is almost full and incoming mail will be rejected. Verify your a=
+ccount to increase your quota: https://acmecorp-support.net/quota/verify
+
+--===============0527615422885352024==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your mailbox is almost full and incoming mail will be rejected.</p><p><a h=
+ref=3D"https://acmecorp-support.net/quota/verify">Verify your account</a> wit=
+hin 24 hours.</p>
+
+--===============0527615422885352024==--

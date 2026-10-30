@@ -1,0 +1,26 @@
+From: Riverside Clinic <noreply@riversideclinic.org>
+To: recipient@example.org
+Subject: Appointment reminder for Tuesday 9:30
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1165897588992955610=="
+
+--===============1165897588992955610==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+This is a reminder of your appointment on Tuesday at 9:30. To check in online=
+, please verify your identity at https://portal.riversideclinic.org/checkin. =
+If you can't attend, call us on 020 7946 0321.
+
+--===============1165897588992955610==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Reminder of your appointment on Tuesday at 9:30. <a href=3D"https://portal=
+.riversideclinic.org/checkin">Verify your identity and check in</a>.</p>
+
+--===============1165897588992955610==--

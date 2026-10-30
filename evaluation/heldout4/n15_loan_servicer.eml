@@ -1,0 +1,25 @@
+From: Northbridge Loan Servicing <notices@northbridgeloans.com>
+To: recipient@example.org
+Subject: Your payment of $142.18 is due on the 15th
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3628669782245738263=="
+
+--===============3628669782245738263==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your monthly payment of $142.18 is due on the 15th. Pay or review your accoun=
+t at https://www.northbridgeloans.com/account.
+
+--===============3628669782245738263==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your monthly payment of $142.18 is due on the 15th. <a href=3D"https://www=
+.northbridgeloans.com/account">Pay or review your account</a></p>
+
+--===============3628669782245738263==--

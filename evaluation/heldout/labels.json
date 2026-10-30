@@ -1,0 +1,142 @@
+{
+  "h01_docusign_lookalike": {
+    "label": "phishing",
+    "note": "DocuSign lookalike domain, document-review lure"
+  },
+  "h02_amazon_orders": {
+    "label": "phishing",
+    "note": "Brand token in domain, order problem lure"
+  },
+  "h03_dhl_parcel_short": {
+    "label": "phishing",
+    "note": "Parcel fee via shortener from throwaway domain"
+  },
+  "h04_payroll_portal": {
+    "label": "phishing",
+    "note": "Payroll lure, no brand, unrelated portal domain"
+  },
+  "h05_onenote_invoice": {
+    "label": "phishing",
+    "note": "OneNote attachment lure"
+  },
+  "h06_callback_scam": {
+    "label": "phishing",
+    "note": "Callback phishing: fake subscription charge"
+  },
+  "h07_mailbox_quota_gsites": {
+    "label": "phishing",
+    "note": "Mailbox-quota lure pointing at free hosting"
+  },
+  "h08_zip_with_exe": {
+    "label": "phishing",
+    "note": "ZIP containing a script, password in body"
+  },
+  "h09_cfo_wire": {
+    "label": "phishing",
+    "note": "Executive impersonation, wire request, free mail"
+  },
+  "h10_coinbase_subdomain": {
+    "label": "phishing",
+    "note": "Brand in subdomain of an unrelated domain"
+  },
+  "h11_apple_id_locked": {
+    "label": "phishing",
+    "note": "Apple ID lookalike domain"
+  },
+  "h12_plaintext_reply_password": {
+    "label": "phishing",
+    "note": "No links, asks for password by reply (hard: little structure)"
+  },
+  "h13_compromised_vendor_clean": {
+    "label": "phishing",
+    "note": "Hard: clean wording from real-looking vendor domain; only a file-share link (expected miss)"
+  },
+  "h14_qr_microsoft": {
+    "label": "phishing",
+    "note": "Image-only QR lure with brand display name on non-brand domain"
+  },
+  "h15_inheritance": {
+    "label": "scam_spam",
+    "note": "Advance-fee inheritance from barrister"
+  },
+  "h16_crypto_spam": {
+    "label": "scam_spam",
+    "note": "Investment spam with guaranteed returns"
+  },
+  "h17_fake_job": {
+    "label": "scam_spam",
+    "note": "Work-from-home fake job"
+  },
+  "h18_seo_cold_spam": {
+    "label": "scam_spam",
+    "note": "Hard: polite cold SEO spam (expected miss)"
+  },
+  "h19_casino": {
+    "label": "scam_spam",
+    "note": "Casino promotion"
+  },
+  "l01_chase_alert_real": {
+    "label": "legit",
+    "note": "Genuine bank-style alert, links on brand domain"
+  },
+  "l02_mailchimp_newsletter": {
+    "label": "legit",
+    "note": "Newsletter via Mailchimp with account-preferences wording"
+  },
+  "l03_amazon_shipping": {
+    "label": "legit",
+    "note": "Amazon shipping notice, brand domain"
+  },
+  "l04_amazon_uk": {
+    "label": "legit",
+    "note": "Amazon national domain"
+  },
+  "l05_recruiter_ats": {
+    "label": "legit",
+    "note": "Recruiter email through an ATS: Reply-To on another domain"
+  },
+  "l06_apple_pie_bakery": {
+    "label": "legit",
+    "note": "Ambiguous brand word in display name (not Apple Inc.)"
+  },
+  "l07_university_password_expiry": {
+    "label": "legit",
+    "note": "University IT notice, password expiring, own-domain links"
+  },
+  "l08_vendor_invoice_pdf": {
+    "label": "legit",
+    "note": "Genuine invoice with PDF and payment amount"
+  },
+  "l09_small_biz_bitly": {
+    "label": "legit",
+    "note": "Small business uses a shortened tracking link"
+  },
+  "l10_google_docs_share": {
+    "label": "legit",
+    "note": "Genuine Google Docs share notification"
+  },
+  "l11_event_ticket_html": {
+    "label": "legit",
+    "note": "Event ticket as HTML attachment (static)"
+  },
+  "l12_friend_zip_photos": {
+    "label": "legit",
+    "note": "Friend sends zip of photos"
+  },
+  "l13_saas_promo": {
+    "label": "legit",
+    "note": "SaaS promotional email with limited-time offer"
+  },
+  "l14_japanese_shop": {
+    "label": "legit",
+    "note": "Japanese single-script domain and text"
+  },
+  "l15_payroll_reminder": {
+    "label": "legit",
+    "note": "Genuine HR reminder mentioning direct deposit, own-domain links"
+  },
+  "l16_forwarding_list_digest": {
+    "label": "legit",
+    "note": "Mailing-list digest with Return-Path and Reply-To on list host"
+  }
+}

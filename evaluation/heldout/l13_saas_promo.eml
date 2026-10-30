@@ -1,0 +1,26 @@
+From: Notion Labs Team <hello@mail.notionlabs.example>
+To: recipient@example.org
+Subject: Limited-time offer: 30% off annual plans
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7228053908527420388=="
+
+--===============7228053908527420388==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Upgrade this week and save. Limited-time offer ends Friday. Manage your subsc=
+ription or unsubscribe: https://mail.notionlabs.example/prefs
+
+--===============7228053908527420388==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Upgrade this week and save. Limited-time offer ends Friday.</p><p><a href=
+=3D"https://mail.notionlabs.example/prefs">Manage subscription</a></p><img sr=
+c=3D"https://mail.notionlabs.example/px.gif">
+
+--===============7228053908527420388==--

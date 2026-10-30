@@ -1,0 +1,11 @@
+From: Amazon <order-update@amazon.co.uk>
+To: recipient@example.org
+Subject: Your order has been delivered
+Date: Tue, 14 Nov 2023 22:13:20 -0000
+Message-ID: <case@mailscope.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your parcel was delivered. View your order: https://www.amazon.co.uk/your-ord=
+ers
