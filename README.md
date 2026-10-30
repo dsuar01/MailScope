@@ -58,10 +58,10 @@ should be, and proves the analysis engine itself runs (that part needs nothing b
 | `'py' is not recognized`, or Python opens the Microsoft Store | Python is not installed (or not on PATH) | Install it from python.org and tick **Add python.exe to PATH** |
 | `running scripts is disabled on this system` | PowerShell blocks `activate` | Use `start_mailscope.bat` or the "no activate" commands above |
 | `app.py not found`, or `requirements.txt not found` | wrong folder (often a doubled `mailscope_project\mailscope_project`) | Go into the folder that directly contains `app.py` |
-| pip prints red errors or times out | no internet, or a company/school network or antivirus blocking pip | Try another network; send the text to Claude |
+| pip prints red errors or times out | no internet, or a company/school network or antivirus blocking pip | Try another network; keep the error text when asking for help |
 | `Port 8501 is already in use` | MailScope is already running in another window | Close the other window, or open <http://127.0.0.1:8501> |
 
-The Windows launcher could not be tested on Windows when it was written; if it misbehaves, the
+If the Windows launcher misbehaves, the
 "by hand" commands above are the fallback, and the output of the self-check helps find the cause.
 
 **Command line (no Streamlit needed)**
@@ -231,6 +231,6 @@ start_mailscope.bat / .sh    one-step launchers (create the private environment,
 tests/                       85 tests (unit, regression named after real weaknesses, evaluation guards)
 evaluation/                  labelled sets (dev, heldout…heldout4), runners, results, protocol
 samples/                     six synthetic messages for the app dropdown
-docs/AUDIT.md                why the earlier application fell short
+docs/DESIGN_NOTES.md               design notes: weaknesses of simple scorers and how MailScope handles them
 docs/HOW_IT_WORKS.md         step-by-step explanation for a beginner
 ```

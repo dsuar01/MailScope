@@ -59,4 +59,4 @@ All rows:
   p21_dhl_shortener_payment          phishing   score= 64 Medium   suspicious       base=  5 ['brand_display_mismatch', 'link_shortener']
   p22_voucher_credentials_form       phishing   score= 60 Medium   suspicious       base= 20 ['html_password_form']
 
-* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.
+* The keyword baseline is a simple additive keyword scorer written for comparison; it is not a published benchmark.

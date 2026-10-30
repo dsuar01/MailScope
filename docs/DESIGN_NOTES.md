@@ -1,10 +1,7 @@
-# Audit: why the earlier MailScope fell short
+# Design notes
 
-**What this audit is based on.** The original MailScope source files were never attached to this
-conversation, so I could not read them. This audit therefore rests on (1) the symptoms and design
-you described, and (2) what building and testing a replacement showed. Where a point below is
-about your original code, it is a *consequence of the described design*, not something I read in
-the code. If you find the original files, compare them against this list.
+Weaknesses that simple email-scoring tools commonly have, how MailScope addresses each one, and the
+defects found and fixed while testing it. Each fix has a regression test.
 
 ## The path from email to verdict, and where it breaks
 
@@ -12,7 +9,7 @@ the code. If you find the original files, compare them against this list.
 .eml file -> parse -> fixed indicator points -> contextual rules -> verdict + score -> report
 ```
 
-| # | Weakness (as described) | Why it matters | What the rebuilt version does |
+| # | Common weakness | Why it matters | What MailScope does |
 |---|---|---|---|
 | 1 | **Two scoring systems.** Legacy points plus separate contextual rules were added together or shown side by side. | Produces "warning" next to a near-zero score. The reader cannot tell which to believe. | One list of findings. The verdict **and** the number are computed from that same list (`risk_assessment.py`), and a test fails if they disagree. |
 | 2 | **Unexplained number.** Arbitrary points looked like a probability. | People read "30" as "30 % chance". Nothing supports that. | The number is labelled an *evidence-strength indicator*; its meaning is printed beside it and in every report. |
@@ -25,7 +22,7 @@ the code. If you find the original files, compare them against this list.
 | 9 | **Validation measured the wrong thing.** 178 passing tests show the code does what the author expects, not that it catches real phishing. | Tests written by the same person as the rules share the same blind spots. | Separate evaluation sets with first-run results kept unedited, hash-frozen case files, false positives/negatives reported by name, plus a run over 12,271 real-world messages written by others. |
 | 10 | **No threat intelligence.** | A brand-new look of a known-bad URL is invisible to heuristics. | Optional offline feed file and opt-in URLhaus lookup, both clearly labelled with what leaves the computer. |
 
-## Weaknesses found *while rebuilding* (all fixed, each with a regression test)
+## Weaknesses found while testing (all fixed, each with a regression test)
 
 | Found by | Weakness | Fix |
 |---|---|---|

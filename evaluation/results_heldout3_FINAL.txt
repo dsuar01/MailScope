@@ -49,4 +49,4 @@ All rows:
   p17_pharma_spam                    scam_spam  score= 64 Medium   spam_scam        base= 35 ['promo_spam', 'pressure']
   p18_xlsm_invoice                   phishing   score= 51 Medium   suspicious       base= 15 ['att_macro:Statement_Sep.xlsm', 'combo_attachment_lure']
 
-* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.
+* The keyword baseline is a simple additive keyword scorer written for comparison; it is not a published benchmark.

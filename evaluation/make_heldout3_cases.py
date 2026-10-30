@@ -6,8 +6,7 @@ macro attachment + 'see attached', payment-detail-change phrasing). No fix was d
 failure; set-3 misses are reported as remaining weaknesses. If that ever changes, set 3 must be
 re-labelled as a development set.
 
-Honest limits: synthetic messages written by one author (an AI assistant working with the project
-owner), small (38 messages), and written with knowledge of the kinds of things the engine looks
+Honest limits: synthetic messages written by one author (the same one who wrote the rules), small (38 messages), and written with knowledge of the kinds of things the engine looks
 for. Results here estimate nothing about real-world accuracy.
 """
 import os

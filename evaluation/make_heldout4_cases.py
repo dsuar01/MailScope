@@ -7,8 +7,7 @@ Written AFTER the round-3 engine changes and BEFORE the engine was run on it. Ru
 It deliberately includes things the engine cannot do (image-only/QR phishing, a hijacked-account
 message with no tell-tale wording, a wrong-number lure) so the report shows real misses.
 
-Honest limits: synthetic messages written by one author (an AI assistant working with the project
-owner); 44 messages; the author knew the kinds of signals the engine uses. This estimates
+Honest limits: synthetic messages written by one author (the same one who wrote the rules); 44 messages; the author knew the kinds of signals the engine uses. This estimates
 nothing about real-world accuracy and says nothing about bulk mail the author did not think of.
 """
 import os

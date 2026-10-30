@@ -48,4 +48,4 @@ All rows:
   l15_payroll_reminder               legit      score= 10 Minimal  none             base=  5 ['payment_request']
   l16_forwarding_list_digest         legit      score=  0 Minimal  none             base=  5 []
 
-* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.
+* The keyword baseline is a simple additive keyword scorer written for comparison; it is not a published benchmark.

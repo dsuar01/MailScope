@@ -23,15 +23,15 @@ fi
 
 if [ ! -x .venv/bin/python ]; then
   echo "Creating a private Python environment (first run only)..."
-  "$PY" -m venv .venv || { echo "Could not create the environment. Copy ALL the text above and send it to Claude."; exit 1; }
+  "$PY" -m venv .venv || { echo "Could not create the environment. Copy ALL the text above and include it when asking for help."; exit 1; }
 fi
 
 if [ ! -f .venv/mailscope_installed.txt ]; then
   echo "Installing what MailScope needs (first run only; needs internet; can take a few minutes)..."
-  if .venv/bin/python -m pip install --disable-pip-version-check -r requirements.txt; then
+  if .venv/bin/python -m pip install --upgrade pip >/dev/null 2>&1; .venv/bin/python -m pip install --prefer-binary -r requirements.txt; then
     echo installed > .venv/mailscope_installed.txt
   else
-    echo "Installing failed. Copy ALL the text above and send it to Claude."
+    echo "Installing failed. Copy ALL the text above and include it when asking for help."
     "$PY" -m mailscope.doctor
     exit 1
   fi

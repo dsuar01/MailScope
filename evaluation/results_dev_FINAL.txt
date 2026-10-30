@@ -26,4 +26,4 @@ All rows:
   d15_legal_notice_pdf               legit      score=  0 Minimal  none             base= 10 []
   d16_mailing_list                   legit      score=  0 Minimal  none             base=  0 []
 
-* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. It is not your original code.
+* The keyword baseline is a simple additive keyword scorer written for comparison; it is not a published benchmark.

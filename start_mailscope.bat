@@ -40,7 +40,8 @@ if not exist ".venv\mailscope_installed.txt" (
   echo.
   echo Installing what MailScope needs. First run only. This needs internet and can take a few minutes...
   echo.
-  ".venv\Scripts\python.exe" -m pip install --disable-pip-version-check -r requirements.txt
+  ".venv\Scripts\python.exe" -m pip install --upgrade pip
+  ".venv\Scripts\python.exe" -m pip install --prefer-binary -r requirements.txt
   if errorlevel 1 goto :installfail
   echo installed> ".venv\mailscope_installed.txt"
 )
@@ -78,7 +79,7 @@ exit /b 1
 
 :venvfail
 echo.
-echo Could not create the private environment. Copy ALL the text in this window and send it to Claude.
+echo Could not create the private environment. Copy ALL the text in this window and include it when asking for help.
 echo.
 pause
 exit /b 1
@@ -86,7 +87,7 @@ exit /b 1
 :installfail
 echo.
 echo Installing the requirements failed. Common causes: no internet, a company or school network
-echo that blocks pip, or an antivirus program. Copy ALL the text in this window and send it to Claude.
+echo that blocks pip, or an antivirus program. Copy ALL the text in this window and include it when asking for help.
 echo.
 %PY% -m mailscope.doctor
 pause
@@ -94,7 +95,7 @@ exit /b 1
 
 :runfail
 echo.
-echo MailScope stopped with an error. Copy ALL the text above and send it to Claude.
+echo MailScope stopped with an error. Copy ALL the text above and include it when asking for help.
 echo.
 pause
 exit /b 1

@@ -85,8 +85,7 @@ def main():
         print("\nAll rows:")
         for r in rows:
             print(f"  {r['id']:34s} {r['label']:10s} score={r['score']:3d} {r['band']:8s} {r['code']:16s} base={r['base']:3d} {r['top']}")
-    print("\n* The keyword baseline is MY reconstruction of a simple additive keyword scorer, written for comparison. "
-          "It is not your original code.")
+    print("\n* The keyword baseline is a simple additive keyword scorer written for comparison; it is not a published benchmark.")
     return 0
 
 

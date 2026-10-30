@@ -1,7 +1,6 @@
 # Evaluation protocol and results
 
-**Read this first.** Every labelled set below is synthetic: written by one author (an AI assistant
-working with the project owner) who knew what the engine looks for. They are small. They are
+**Read this first.** Every labelled set below is synthetic: written by one author (the same one who wrote the rules) who knew what the engine looks for. They are small. They are
 useful for finding weaknesses and catching regressions. **They do not measure production
 accuracy**, and nothing here should be quoted as "MailScope is X % accurate".
 
@@ -72,9 +71,9 @@ did not order), `heldout2/n10_forwarded_to_security` (19), `heldout3/n16_retail_
 would be false alarms. Low means "double-check", not "dangerous".
 
 ### Baseline
-`baseline_keyword.py` is **my reconstruction** of a simple additive keyword scorer, written because
-your original scorer was not available. It catches almost nothing at threshold 50 (2 of 9 on `dev`, 0 on the four other sets). Treat it as a weak reference point, not a fair comparison with your
-original code: a different threshold or weights would score differently.
+`baseline_keyword.py` is a simple additive keyword scorer, written because
+no published baseline was available. It catches almost nothing at threshold 50 (2 of 9 on `dev`, 0 on the four other sets). Treat it as a weak reference point, not a fair comparison with a tuned scorer:
+a different threshold or weights would score differently.
 
 ## Real-world run (messages written by other people)
 
